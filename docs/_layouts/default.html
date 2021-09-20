@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html class="min-vh-100">
+
+{% include head.html %}
+
+<body class="min-vh-100 d-flex flex-column bg-medium">
+
+  <div class="flex-grow-1 d-flex flex-column">
+    {% include navbar.html %}
+
+    {{ content }}
+  </div>
+
+  <div class="flex-shrink-0">
+    {% include footer.html %}
+  </div>
+  {% include scripts.html %}
+
+  {% include google-analytics.html %}
+
+</body>
+
+</html>

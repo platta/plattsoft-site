@@ -1,0 +1,13 @@
+$ps-blue: #2a80b9;
+$ps-orange: #e67e22;
+$ps-purple: #744a7c;
+
+$ps-dark: #342e37;
+$ps-medium: #8c8e9a;
+$ps-light: #bebbbb;
+
+$ps-light-blue: #c1def1;
+
+$ps-light-gray: desaturate($ps-blue, 50%);
+$ps-medium-gray: #476a6f; //darken(desaturate($ps-blue, 50%), 15%);
+$ps-dark-gray: #342e37; //darken(desaturate($ps-blue, 50%), 30%);

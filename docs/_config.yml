@@ -1,0 +1,33 @@
+title: plattsoft.net
+email: adam@plattsoft.net
+
+description: ""
+
+domain: platta.github.io
+url: https://platta.github.io
+baseurl: /plattsoft-site/
+
+twitter_username: platta
+github_username:  platta
+linkedin_username: platta
+
+# Build settings
+markdown: kramdown
+# theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  style: compressed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

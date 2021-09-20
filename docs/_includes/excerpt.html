@@ -1,0 +1,7 @@
+<article class="mb-3">
+  <h3><a href="{{ include.content.url | relative_url}}">{{ include.content.title }}</a></h3>
+  <p>{{ include.content.excerpt }}</p>
+  <small>
+    {{ include.content.date | date: "%Y-%m-%d" }} | {{ include.content.categories }}
+  </small>
+</article>

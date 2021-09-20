@@ -1,0 +1,15 @@
+---
+---
+@import 'plattsoft/main';
+
+/* @import 'pygments/default.css'; */
+
+@media (min-width: 1200px) {
+    #sidebar {
+        width: 275px;
+    }
+}
+
+pre.lineno {
+    margin-right: 1em;
+}
