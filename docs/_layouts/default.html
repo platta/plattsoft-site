@@ -2,23 +2,23 @@
 
 <html class="min-vh-100">
 
-{% include head.html %}
+  {% include head.html %}
 
-<body class="min-vh-100 d-flex flex-column bg-medium">
+  <body class="min-vh-100 d-flex flex-column bg-medium">
 
-  <div class="flex-grow-1 d-flex flex-column">
-    {% include navbar.html %}
+    <div class="flex-grow-1 d-flex flex-column">
+      {% include navbar.html %}
 
-    {{ content }}
-  </div>
+      {{ content }}
+    </div>
 
-  <div class="flex-shrink-0">
-    {% include footer.html %}
-  </div>
-  {% include scripts.html %}
+    <div class="flex-shrink-0">
+      {% include footer.html %}
+    </div>
+    {% include scripts.html %}
 
-  {% include google-analytics.html %}
+    {% include google-analytics.html %}
 
-</body>
+  </body>
 
 </html>
