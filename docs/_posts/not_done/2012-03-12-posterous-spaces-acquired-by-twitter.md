@@ -1,5 +1,4 @@
 ---
-todo: true
 title: Posterous Spaces Acquired by Twitter
 date: '2012-03-12'
 author: Adam

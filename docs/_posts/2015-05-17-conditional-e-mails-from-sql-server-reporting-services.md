@@ -24,12 +24,12 @@ version of SSRS supports data-driven subscriptions there's a better way to do
 this, which you can read about
 [here](http://blogs.msdn.com/b/bimusings/archive/2005/07/29/445080.aspx).
 
-## 1. Schedule the report ##
+## 1. Schedule the report
 
 First, create and schedule the report. SSRS creates a SQL Server Agent job to
 run the scheduled report, and you are going to modify that job.
 
-## 2. Find the job id ##
+## 2. Find the job id
 
 SSRS uses a GUID as the name of the SQL Server Agent job it creates for each
 scheduled report. You need to identify which job is the one you need.
@@ -47,7 +47,7 @@ SELECT c.Name, s.ScheduleID, s.SubscriptionID
 The `ScheduleID` field for each row is the job name used for each scheduled
 report.
 
-## 3. Edit the job in SQL Server Agent ##
+## 3. Edit the job in SQL Server Agent
 
 Now that you know the name of the SQL Server Agent job you need to modify, find
 it in the tree view in Management Studio. Right click and bring up the job's
@@ -73,7 +73,7 @@ END
 
 Save the changes and you're almost done. There is only one more thing to check.
 
-## 4. Check Security Settings ##
+## 4. Check Security Settings
 
 The SQL Server Agent runs its jobs as the `NT AUTHORITY\NetworkService` account,
 so you will need to make sure that account has rights to query your database.
@@ -90,7 +90,7 @@ schedule, but will only send a report if your condition evaluates to true.
 you've edited the SQL Server Agent job, so if anyone modifies the report
 schedule via SSRS the changes you made will be overwritten.
 
-## Example ##
+## Example
 
 I had a table that was populated nightly by a script that scanned servers on the
 network. Any time a new server showed up on the network I would need to manually

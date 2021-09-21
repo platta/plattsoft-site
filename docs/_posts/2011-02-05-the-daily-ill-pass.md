@@ -19,7 +19,7 @@ payment structure and how to support it in the iTunes store. Curious, I
 downloaded the app, which nicely includes a 2 week free trial, and decided to
 see what all the fuss was about. Here's what I found:
 
-## Launch Time ##
+## Launch Time
 
 The first time I launched The Daily, I wound up washing an entire sink full of
 dishes before I actually read any news. I didn't have my stopwatch handy the
@@ -37,13 +37,13 @@ for the application to load.
   indicator in the upper left-hand corner. While I was running my stopwatch,
   this loading indicator remained on the screen for another _three and half
   minutes_.
-  
+
 Considering I recorded these times while at home on my WiFi network, this is
 already a deal breaker for me. When I decide I want to read the news, I want to
 be able to pick something up and start reading. If I had an actual newspaper in
 my hand I could do that.
 
-## Layout ##
+## Layout
 
 The way that the main screen is laid out in The Daily is inefficient, to say the
 least. It has a "coverflow" type appearance that lets you scroll through
@@ -77,7 +77,7 @@ were to indicate that there was additional content below the current view.
 Swiping upwards (the same as you would when scrolling downwards on a device with
 a touchscreen interface) revealed the additional content.
 
-## User Experience ##
+## User Experience
 
 I am disappointed in the quality of The Daily's user experience. The main
 "coverflow" view has some of the choppiest animation I have seen on an iPad. At
@@ -101,7 +101,7 @@ look at images, and numerous other small features that are common in most apps
 just aren't there. Add the app's poor performance to the list, and I start to
 wonder whether this isn't a beta release.
 
-## Content ##
+## Content
 
 I'm not a big news buff, and I'm the first to admit it. As far as I'm concerned,
 I can get the exact same news stories by going to CNN or MSNBC. The main
@@ -118,7 +118,7 @@ iPad, paying for an app almost always means no ads. Many developers use that as
 a sales strategy, releasing both a free version and a paid version of an app;
 the only difference between the two is that the paid version has no ads in it.
 
-## Conclusion ##
+## Conclusion
 
 The Daily is a Web 1.5 application trying to crush the competition in a Web 2.0
 world. Unless News Corp. changes its approach, I can't imagine this digital

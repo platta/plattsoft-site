@@ -1,6 +1,4 @@
 ---
-todo: true
-
 title: "Some Thoughts Inspired by Nintendo's Hybrid Device, the Switch"
 date: '2017-03-24'
 author: Adam

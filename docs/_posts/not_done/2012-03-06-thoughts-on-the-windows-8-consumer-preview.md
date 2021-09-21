@@ -1,5 +1,4 @@
 ---
-todo: true
 title: Thoughts on the Windows 8 Consumer Preview
 date: '2012-03-06'
 author: Adam
@@ -29,9 +28,9 @@ instructions
 VBoxManage command you need should be available (and in scope) from the Terminal
 app.  The syntax and parameters are all the same.
 
-## Notable Features ##
+## Notable Features
 
-### Metro ##
+### Metro
 
 The Metro style was first introduced on Windows Phone 7, and was later brought
 to the XBOX 360. It is crisp and modern, with broad swatches of flat colors and
@@ -48,7 +47,7 @@ In the Windows 8 Consumer Preview, Metro appears as a layer of the experience. I
 wouldn't say it is on top of the traditional "desktop" (which you can still
 access), but perhaps next to it.
 
-### Start Screen ###
+### Start Screen
 
 [<img id="blogsy-1331067370512.256" class="alignleft wp-image-949" src="http://45.55.182.154/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM.jpg" alt="Swipe here to start?" width="363" height="363" srcset="https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM-150x150.jpg 150w, https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM-300x300.jpg 300w, https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM-400x400.jpg 400w, https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM.jpg 605w" sizes="(max-width: 363px) 100vw, 363px" />](http://45.55.182.154/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-321-PM.jpg)
 
@@ -59,7 +58,7 @@ Calendar. Microsoft, as it began doing with Windows Live Essentials, has split
 its functionality out by task. In my experience, when things are split up this
 way, it's easy to find what you need based on what you're trying to do.
 
-### Fullscreen Apps ###
+### Fullscreen Apps
 
 Metro styled apps all run fullscreen. Tapping on the Mail Live Tile, for
 example, causes it to flip over and expand to fill the entire screen momentarily
@@ -76,7 +75,7 @@ things are large enough for fingers to tap on, but things can feel a bit sparse
 at times. I found myself wishing, even if just a little bit, that more mail
 messages would fit on the screen at once.
 
-### App Snapping ###
+### App Snapping
 
 If you have a widescreen resolution, you also have the ability to have two Metro
 apps on screen at the same time. If you "grab" an app at the top of the screen
@@ -92,9 +91,9 @@ left-hand edge of the normal view, and all the text gets cut off. There must be
 an event or something for developers to hook into in order to customize the app
 interface while docked.
 
-## Impressions ##
+## Impressions
 
-### Drastic Departure ##
+### Drastic Departure
 
 The Windows 8 Consumer Preview gives a glimpse of what Windows will become.
 Microsoft has been operating in the desktop PC world for many years, and has
@@ -112,9 +111,11 @@ Windows 8 is moving towards ditching the desktop itself in favor of a collection
 of self-sufficient fullscreen apps connected together by the Start Screen, the
 new root of your Windows experience.
 
-Overall, this big change is a good one. I'm sure Microsoft still has lots of figuring out to do, but again there is still plenty of time for that. If I had one negative thing to say about the Windows 8 Consumer Preview, it would be...
+Overall, this big change is a good one. I'm sure Microsoft still has lots of
+figuring out to do, but again there is still plenty of time for that. If I had
+one negative thing to say about the Windows 8 Consumer Preview, it would be...
 
-### Too Much Touch? ###
+### Too Much Touch?
 
 Windows 8 is going to be making a big push into the tablet world. Naturally,
 this means it's going to have a lot of touch elements in it, and existing
@@ -126,7 +127,7 @@ great as touch gestures, but feel very strange when done with the mouse.
 <a href="http://45.55.182.154/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-347-PM.jpg"><img aria-describedby="caption-attachment-959" class="size-full wp-image-959" title="wpid-Photo-Mar-6-2012-347-PM.jpg" src="http://45.55.182.154/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-347-PM.jpg" alt="Why won't you stay where I can click you?" width="305" height="267" srcset="https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-347-PM-150x131.jpg 150w, https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-347-PM-300x262.jpg 300w, https://plattsoft.net/wp-content/uploads/2012/03/wpid-Photo-Mar-6-2012-347-PM.jpg 305w" sizes="(max-width: 305px) 100vw, 305px" /></a>
 Why won't you stay where I can click you?
 
-#### Cornering the Mouse ####
+#### Cornering the Mouse
 
 The Start button is gone, and in its place is what I guess you'd call the Start
 corner. if you bring the mouse to the lower left-hand corner of the screen, a
@@ -155,7 +156,7 @@ corner" are natural for the finger, but cumbersome at best for the mouse. With
 no obvious alternatives (although I'm sure there are some snazzy keyboard
 shortcuts), the average user will have to do extra work just to get by.
 
-#### "Closing" an App ####
+#### "Closing" an App
 
 Closing an app in the Windows 8 Consumer Preview is another strange action. Gone
 are the three buttons in the upper right-hand corner of a window. The days of
@@ -184,7 +185,7 @@ questionable in my mind. Microsoft may have done this to help out its newer,
 more casual audience, however stalwart Windows users want to know that when they
 close a program it is really closed.
 
-## Finally... ##
+## Finally...
 
 I realize this is a preview, and many things are likely to change in the final
 release of Windows 8. At the same time, discussing the preview provides the

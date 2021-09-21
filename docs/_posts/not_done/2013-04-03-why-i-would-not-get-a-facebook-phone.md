@@ -1,5 +1,4 @@
 ---
-todo: true
 title: Why I Would Not Get a Facebook Phone
 date: '2013-04-03'
 author: Adam

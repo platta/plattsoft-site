@@ -21,7 +21,7 @@ Natasha states that what UX designers do is not art and that design, in general,
 is not art. I found myself disagreeing immediately, but as she and Scott
 discussed the details of what she meant I realized that there was more to it.
 
-## The Discussion ##
+## The Discussion
 
 The entire episode is a great listen, but the "Designers are not artists"
 discussion starts around the eleven minute mark when Natasha says (wait for
@@ -37,7 +37,7 @@ feeling...art is purely emotion...it's not really problem solving."
 Scott and Natasha move on to some other great topics, but this three or four
 minute segment really got me thinking.
 
-## How I Use the Word "Art" ##
+## How I Use the Word "Art"
 
 When I use the word art in the context of software, I am usually talking about
 what I call the difference between art and science. One of my favorite sayings
@@ -70,7 +70,7 @@ In the same way, I feel that designing a User Interface (UI) is a science
 (anyone can put a button on a form), but designing a UI that is logically laid
 out to make the user's experience intuitive and straightforward is an art.
 
-## The Conflict ##
+## The Conflict
 
 So here I am apparently saying the exact opposite of what Natasha talks about in
 the podcast.

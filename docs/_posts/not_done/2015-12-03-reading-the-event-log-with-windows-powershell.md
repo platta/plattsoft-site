@@ -43,7 +43,7 @@ logs. That's why we're going to take a look at the `Get-WinEvent` cmdlet in
 PowerShell. This cmdlet is a powerful and flexible way of pulling data out of
 the event logs, both in interactive sessions and in scripts.
 
-## Get-WinEvent: The Basics ##
+## Get-WinEvent: The Basics
 
 _Before we get started, don't forget to launch your PowerShell session as
 Administrator, since some of the logs (like Security) won't be accessible
@@ -87,7 +87,7 @@ Get the oldest 50 events from the Application log.
 Get-WinEvent -LogName Application -MaxEvents 50 -Oldest
 ```
 
-### Discovering ###
+### Discovering
 
 The event logs have grown up quite a bit since the days when Application,
 Security, and System were the only logs to look through. Now there are folders
@@ -125,9 +125,10 @@ properties of a log in Event Viewer and look at the file name.
 
 Bingo.
 
-You can pass `*` to the `-ListLog` or `-ListProvider` parameters to get all logs or all providers.
+You can pass `*` to the `-ListLog` or `-ListProvider` parameters to get all logs
+or all providers.
 
-## Filtering ##
+## Filtering
 
 The commonly used parameters are great for doing basic filtering, but if you're
 doing anything more complicated than a basic health, check you're going to need

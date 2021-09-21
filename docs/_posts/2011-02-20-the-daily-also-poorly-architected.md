@@ -27,19 +27,9 @@ performed poorly in a number of areas, including:
 It wasn't long before the first update for the app was available on the iTunes
 store, and the second, but I never actually installed either of them.  Here's
 why:
-<!-- TODO -->
-<div class="fusion-fullwidth fullwidth-box hundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'>
-  <div class="fusion-builder-row fusion-row ">
-    <div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1 fusion-builder-column-32 fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"   data-bg-url="">
-        <div id="attachment_699" style="width: 463px" class="wp-caption aligncenter">
-          <a href="http://45.55.182.154/wp-content/uploads/2011/02/thedaily.tiff"><img aria-describedby="caption-attachment-699" class="size-full wp-image-699  " title="The Daily Update Description" src="http://45.55.182.154/wp-content/uploads/2011/02/thedaily.tiff" alt="&quot;Description&quot; of the contents of the latest update to The Daily App." width="453" height="66" /></a>
 
-          <p id="caption-attachment-699" class="wp-caption-text">
-            Why are you yelling?
-          </p>
-        </div>
-
+{:.text-center}
+![Why are you yelling?]({{ "/assets/img/2011/thedaily.tiff" | relative_url }})
 
 This is bad architecture if I've ever seen it.  The way that iOS deals with data
 and files during installs, updates, backups, and restores,

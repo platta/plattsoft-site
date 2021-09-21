@@ -3,7 +3,7 @@ title: Consulting Services
 
 layout: page
 ---
-# Valuable experience, insightful solutions
+## Valuable experience, insightful solutions
 
 *From Cloud Architecture to Automation to Software Engineering, I have the
 skills to deliver the value you need.
@@ -16,6 +16,7 @@ are:
 <div class="row">
 
 <div class="col-md-4 text-center" markdown="1">
+
 ## Cloud Architecture
 
 I have experience and certifications in both AWS and OpenStack. If you are
@@ -26,6 +27,7 @@ be secure, highly scalable, highly available, and cost efficient.
 </div>
 
 <div class="col-md-4 text-center" markdown="1">
+
 ## Automation
 
 Whether you need to optimize a workflow or automate it entirely, I can help.
@@ -37,6 +39,7 @@ countless human-error risks.
 </div>
 
 <div class="col-md-4 text-center" markdown="1">
+
 ## Software Engineering / Programming
 
 I may have my head in the cloud these days, but my first love will always be

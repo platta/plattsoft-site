@@ -1,5 +1,4 @@
 ---
-todo: true
 title: 'Adaptive Gadgetry - Exposing Different Functions as a Function of User Capability'
 date: '2013-04-01'
 author: Adam

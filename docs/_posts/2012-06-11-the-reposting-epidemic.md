@@ -19,7 +19,7 @@ I think there are two reasons for this:
 
 1. Repost functionality is beginning to be offered by the more popular social
    networks. Even Facebook now has a "share" option for links, images, and
-   events. 
+   events.
 2. The level of integration between social networks in general is growing very
    rapidly. Not only can you repin someone else's pin on Pinterest, but you can
    share it out to Twitter or Facebook at the same time.
@@ -35,7 +35,10 @@ anything _but_ repost things that others have made.
 Don't believe me? Okay, fine. But tell me, how many times has this video shown
 up in your Facebook, Twitter, Tumblr, or Google+ feed?
 
-<!-- TODO: Get that annoying wedding video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZsVSYFlKSNQ"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+   clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+   allowfullscreen></iframe>
 
 It makes me wonder: is there a point where increasing communication and the
 ability to share information between people actually begins to cause a decrease

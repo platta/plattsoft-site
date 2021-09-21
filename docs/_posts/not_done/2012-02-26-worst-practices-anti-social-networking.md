@@ -1,5 +1,4 @@
 ---
-todo: true
 title: 'Worst Practices: Anti-Social Networking'
 date: '2012-02-26'
 author: Adam
@@ -22,7 +21,7 @@ per se, but GNC is missing out on a huge opportunity to connect with its
 customer base. Just take a look at this timeline snapshot.
 
 <!-- TODO: image -->
-<img class=" wp-image-822 alignleft" title="@GNCLiveWell's Timeline" src="http://45.55.182.154/wp-content/uploads/2012/02/2-24-2012-11-54-21-AM.png" alt="" width="282" height="315" /> 
+<img class=" wp-image-822 alignleft" title="@GNCLiveWell's Timeline" src="http://45.55.182.154/wp-content/uploads/2012/02/2-24-2012-11-54-21-AM.png" alt="" width="282" height="315" />
 
 This is from the feed that shows every tweet from the @GNCLiveWell account,
 including any @messages sent to other users. **Notice how there aren't any**.

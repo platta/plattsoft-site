@@ -1,5 +1,4 @@
 ---
-todo: true
 title: 'The Windows Flavor of the Month - "Professional Plus"'
 date: '2012-03-02'
 author: Adam
@@ -18,8 +17,8 @@ categories:
 Photo from original article
 
 There is a story over at [The
-Verge](http://www.theverge.com/2012/3/2/2838822/windows-8-professional-plus-edition) about
-how there might be a new edition of Windows available in Windows 8, the
+Verge](http://www.theverge.com/2012/3/2/2838822/windows-8-professional-plus-edition)
+about how there might be a new edition of Windows available in Windows 8, the
 "Professional Plus" edition.  This is based on a string found in the registry of
 the Consumer Preview of Windows 8 (which is fantastic, if fairly buggy).
 

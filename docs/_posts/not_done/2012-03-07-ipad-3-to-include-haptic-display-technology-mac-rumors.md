@@ -1,5 +1,4 @@
 ---
-todo: true
 title: 'iPad 3 to Include Haptic Display Technology? - Mac Rumors'
 date: '2012-03-07'
 author: Adam

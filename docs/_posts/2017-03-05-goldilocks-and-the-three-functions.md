@@ -27,7 +27,7 @@ however unsatisfying, is: it depends.
 Let's look at some examples. We'll be using JavaScript, for no particular
 reason.
 
-## Example 1 ##
+## Example 1
 
 ``` javascript
 function f(n){return n<3?1:f(n-1)+f(n-2);}
@@ -47,7 +47,7 @@ should never make it to a source control repository in its current state.
 <div class="row">
   <div class="col-lg-6" markdown="1">
 
-### Example 1 - Pros ###
+### Example 1 - Pros
 
 - The code...uh...returns the correct value?
 - Can you tell this example is my least favorite?
@@ -57,7 +57,7 @@ should never make it to a source control repository in its current state.
   </div>
   <div class="col-lg-6" markdown="1">
 
-### Example 1 - Cons ###
+### Example 1 - Cons
 
 - There are no comments.
 - The function and parameter names are not descriptive.
@@ -132,7 +132,7 @@ should never make it to a source control repository in its current state.
   </div>
 </div>
 
-## Example 2 ##
+## Example 2
 
 _Please don't feel like you have to read all of this code. I promise, it is a
 working Fibonacci function._
@@ -254,7 +254,7 @@ naming, exception handling, and commenting practices.
 <div class="row">
   <div class="col-lg-6" markdown="1">
 
-### Pros ###
+### Example 2 - Pros
 
 - Function, parameter, and variable names are descriptive.
 - Plenty of comments to help understand what the code is doing.
@@ -269,7 +269,7 @@ naming, exception handling, and commenting practices.
   </div>
   <div class="col-lg-6" markdown="1">
 
-### Cons ###
+### Example 2 - Cons
 
 - Comments are so verbose it actually makes the code harder to follow.
 - Exception handling code complicates the function's logic.
@@ -284,7 +284,7 @@ naming, exception handling, and commenting practices.
   </div>
 </div>
 
-## Example 3 ##
+## Example 3
 
 ``` javascript
 /**
@@ -317,7 +317,7 @@ or readability.
 <div class="row">
   <div class="col" markdown="1">
 
-### Pros ###
+### Example 3 - Pros
 
 - Relies on descriptive variable names to convey meaning without needing comments.
 - Provides comments where helpful to explain the logic of the function.
@@ -328,7 +328,7 @@ or readability.
   </div>
   <div class="col-lg-6" markdown="1">
 
-### Cons ###
+### Example 3 - Cons
 
 - Allows you to pass invalid values for the <code>index</code> parameter.
 - Some best practices not followed.
@@ -338,7 +338,7 @@ or readability.
   </div>
 </div>
 
-## Which Approach is Just Right? ##
+## Which Approach is Just Right?
 
 As I said above, there is no simple answer to this question, it will always
 depend on the specifics of the function you are writing and the context in which

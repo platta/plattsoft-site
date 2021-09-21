@@ -1,5 +1,4 @@
 ---
-todo: true
 title: What Motivates Us
 date: '2010-06-26'
 author: Adam
@@ -14,4 +13,7 @@ categories:
 I found this video from the Royal Society for the encouragement of Arts,
 Manufactures and Commerce (RSA for short) to be very insightful.
 
-<!-- TODO: Where is the video? -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u6XAPnuFjJc"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+  clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>

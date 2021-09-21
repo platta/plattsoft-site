@@ -3,7 +3,7 @@ title: About
 
 layout: page
 ---
-# Who am I?
+## Who am I?
 
 My background in technology is extensive, from self-teaching to school and
 community participation to project work. I have spent years learning the nuances
@@ -18,10 +18,11 @@ Engineering.
   employer, a system that they still use today.
 - Connecting with and fostering dialogue and community is really important to
   me. I was invited to speak at BriForum Denver in 2015, and my lecture was
-  titled
-  [“One Server to Rule THem All: How to Use PowerShell Desired State Configuratio to Automate Your Environment"](http://www.brianmadden.com/video/BriForum-2015-How-to-Use-PowerShell-Desired-State-Configuration-to-Automate-Your-Environment).
-  The following year I spoke at PowerShell Summit in Washington, doing an
-  [LCM Deep Dive](https://www.youtube.com/watch?v=YBo83RSGKoM).
+  titled [“One Server to Rule THem All: How to Use PowerShell Desired State
+  Configuratio to Automate Your
+  Environment"](http://www.brianmadden.com/video/BriForum-2015-How-to-Use-PowerShell-Desired-State-Configuration-to-Automate-Your-Environment).
+  The following year I spoke at PowerShell Summit in Washington, doing an [LCM
+  Deep Dive](https://www.youtube.com/watch?v=YBo83RSGKoM).
 - And, just to share my human side, in my spare time I enjoy shredding on the
   bass guitar, solving puzzles, playing with my daughter and son, searching
   projects to do with Raspberry Pi, and tinkering with a mobile game I want to

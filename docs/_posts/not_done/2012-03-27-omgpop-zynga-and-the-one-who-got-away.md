@@ -1,5 +1,4 @@
 ---
-todo: true
 title: Omgpop, Zynga, and the One Who Got Away
 date: '2012-03-27T'
 author: Adam

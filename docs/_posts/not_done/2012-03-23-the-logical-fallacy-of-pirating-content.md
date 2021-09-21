@@ -1,5 +1,4 @@
 ---
-todo: true
 title: The Logical Fallacy of Pirating Content
 date: '2012-03-23'
 author: Adam

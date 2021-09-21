@@ -1,5 +1,4 @@
 ---
-todo: true
 title: Expression Translator
 date: '2009-08-20'
 author: Adam

@@ -18,6 +18,7 @@ about helping my audience learn and grow.
 <div class="row">
 
 <div class="col-md-4" markdown="1">
+
 ### Understanding Technology
 
 Do you have a group of non-technical professionals that could benefit from a
@@ -27,6 +28,7 @@ might improve your team's effectiveness.
 </div>
 
 <div class="col-md-4" markdown="1">
+
 ### Diving Deep
 
 Need to get your team up to speed on a newly adopted technology? I can work with
@@ -36,6 +38,7 @@ apart, piece by piece, and put it back together again.
 </div>
 
 <div class="col-md-4" markdown="1">
+
 ### Sharing Experiences
 
 Over the many years I've spent in technology, software engineering, and

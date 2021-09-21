@@ -1,5 +1,4 @@
 ---
-todo: true
 title: "The Danger of Building a Product on Someone Else's Service"
 date: '2013-04-10'
 author: Adam

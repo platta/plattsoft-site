@@ -1,6 +1,4 @@
 ---
-todo: true
-
 title: Touch UX Trends Started by Apps
 date: '2017-04-17'
 author: Adam
