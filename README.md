@@ -18,4 +18,5 @@ styles are defined in the `plattsoft` folder.
 
 - Google analytics key
 - Favicon
-- Apple icon
+- Apple icons
+- Cookies thing?
