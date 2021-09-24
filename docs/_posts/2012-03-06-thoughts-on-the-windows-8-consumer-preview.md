@@ -11,7 +11,11 @@ categories:
   - Technology
 ---
 {:.text-center}
-![The New Windows 8 Logo]({{ '/assets/img/2012/win8logo.jpg' | relative_url }})
+<img
+  src="{{ '/assets/img/2012/win8logo.jpg' | relative_url }}"
+  alt="The New Windows 8 Logo"
+  class="img-fluid"
+/>
 
 So I've had the opportunity to play with the recently released Windows 8
 Consumer Preview, and I wanted to write down some of my thoughts to see if
@@ -55,6 +59,7 @@ access), but perhaps next to it.
   src="{{ '/assets/img/2012/win8start.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/win8start@2x.jpg' | relative_url }} 2x"
   alt="Swipe here to start?"
+  class="img-fluid"
 />
 
 The Start screen consists of a series of Live Tiles that you can use to launch
@@ -131,8 +136,11 @@ clumsy, as some of the things you have to do to interact with applications work
 great as touch gestures, but feel very strange when done with the mouse.
 
 {:.text-center}
-![Why wont' you stay where I can click you?]({{'/assets/img/2012/win8corner.jpg'
-| relative_url }})
+<img
+  src="{{'/assets/img/2012/win8corner.jpg' | relative_url }}"
+  alt="Why wont' you stay where I can click you?"
+  class="img-fluid"
+/>
 
 #### Cornering the Mouse
 

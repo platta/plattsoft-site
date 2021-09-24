@@ -16,6 +16,7 @@ categories:
   srcset="{{ '/assets/img/2013/mohawk@2x.jpg' | relative_url }} 2x,
           {{ '/assets/img/2013/mohawk@3x.jpg' | relative_url }} 3x"
   alt="Yep, that happened"
+  class="img-fluid"
 />
 
 For the past six weeks, the top of my head has been bright pink. At certain
@@ -113,6 +114,7 @@ respect that.
   srcset="{{ '/assets/img/2013/no_mohawk@2x.jpg' | relative_url }} 2x
           {{ '/assets/img/2013/no_mohawk@3x.jpg' | relative_url }} 3x"
   alt="One Less Mohawk"
+  class="img-fluid"
 />
 
 I most likely won't be getting a Mohawk next year, and I'm okay with that. It

@@ -22,20 +22,12 @@ The webcomic [XKCD](http://xkcd.com/) had an eye-opening issue a while back,
 which I believe has been hotly debated in various forums:
 
 {:.text-center}
-[![XKCD Proposes a Better Approach to Password Strength]({{
-'/assets/img/2013/xkcd_936.jpg' | relative_url }})](https://xkcd.com/936)
+[<img
+  src="{{ '/assets/img/2013/xkcd_936.jpg' | relative_url }}"
+  class="img-fluid"
+/>
+](https://xkcd.com/936)
 
-<!-- <div class="fusion-fullwidth fullwidth-box hundred-percent-fullwidth non-hundred-percent-height-scrolling"  style='background-color: rgba(255,255,255,0);background-position: center center;background-repeat: no-repeat;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;'>
-  <div class="fusion-builder-row fusion-row ">
-    <div  class="fusion-layout-column fusion_builder_column fusion_builder_column_1_1 fusion-builder-column-40 fusion-one-full fusion-column-first fusion-column-last fusion-column-no-min-height 1_1"  style='margin-top:0px;margin-bottom:0px;'>
-      <div class="fusion-column-wrapper" style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;"   data-bg-url="">
-        <div style="width: 510px" class="wp-caption aligncenter">
-<a href="http://xkcd.com/936/" target="_blank"><img id="blogsy-1366896105169.3901" class="aligncenter" src="http://45.55.182.154/wp-content/uploads/2013/04/wpid-Photo-Apr-18-2013-943-AM.jpg" alt="XKCD Proposes a Better Approach to Password Strength" width="500" height="406" /></a>
-
-          <p class="wp-caption-text">
-            Credit: XKCD
-
-        </div> -->
 There are two concepts Munroe is focusing on here: the difficulty for an
 attacking program to guess a password, and the difficulty for a human
 being to remember the password. Already we can see how password strength

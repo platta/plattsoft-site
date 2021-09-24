@@ -52,8 +52,12 @@ clients and partner contacts within AWS were there to cheer us on.
 
 <!-- Picture beside text -->
 <div class="col-md text-center" markdown="1">
-![Award]({{ "/assets/img/2018/award.png" | relative_url }})
+<img
+  src="{{ '/assets/img/2018/award.png' | relative_url }}"
+  class="img-fluid"
+/>
 </div>
+
 </div>
 
 ## Working the floor

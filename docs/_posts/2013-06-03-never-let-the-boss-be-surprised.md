@@ -11,7 +11,10 @@ categories:
   - Soft Skills
 ---
 {:.text-center}
-![surprised]({{ '/assets/img/2011/surprised.jpg' | relative_url }})
+<img
+  src="{{ '/assets/img/2011/surprised.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 There is a piece of advice I [hear tossed
 around](http://blog.ivyexec.com/2013/never-let-your-boss-be-surprised-by-bad-news-part-i/)

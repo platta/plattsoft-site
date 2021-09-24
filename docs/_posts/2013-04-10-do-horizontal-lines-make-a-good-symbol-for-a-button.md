@@ -30,9 +30,14 @@ took a 64&#215;64 snapshot of each, and I'm showing them here at double their
 original size. Without the context surrounding each one, can you tell what they
 are for?
 
-{:.text-center}
-![Can you guess?]({{'/assets/img/2013/horizontal_bars_teaser.jpg' | relative_url
-}})
+<figure class="figure text-center d-block">
+<img
+  src="{{'/assets/img/2013/horizontal_bars_teaser.jpg' | relative_url }}"
+  alt="Can you guess?"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Can you guess?</figcaption>
+</figure>
 
 Let's take a closer look at them, each in its original context (all of the
 following images are shown at half size, because retina displays make things
@@ -40,7 +45,11 @@ huge).
 
 ---
 
-![Image 1]({{ '/assets/img/2013/horizontal_bars_1.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_1.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 Item number one is from OmniFocus (shown here on my iPhone), the app that I use
 for my to-do list. Now that we can see the horizontal bars in context, we can
@@ -55,7 +64,11 @@ the list, you actually move the list item up or down.
 
 ---
 
-![Image 2]({{ '/assets/img/2013/horizontal_bars_2.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_2.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 The second image is from the Fandango app on my iPad. When shown in context,
 it's fairly easy to see that this control allows the user to select between a
@@ -67,7 +80,11 @@ that they affect the main view.
 
 ---
 
-![Image 3]({{ '/assets/img/2013/horizontal_bars_3.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_3.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 Item number three is from Apple's Reminders app. This is a list of restaurants I
 started, so that I remember new places I want to eat at. I always think of them
@@ -80,7 +97,11 @@ that is built into iOS.
 
 ---
 
-![Image 4]({{ '/assets/img/2013/horizontal_bars_4.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_4.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 Image number four is also from the Reminders app. This is very interesting,
 because **now we have a direct conflict of meaning**. Tapping on the horizontal
@@ -92,7 +113,11 @@ iCloud or an Exchange account.
 
 ---
 
-![Image 5]({{ '/assets/img/2013/horizontal_bars_5.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_5.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 The fifth image is from the app Blogsy, which I use to write most of my posts
 for the site. Surprise! It's our old friend the bulleted list. This is quite
@@ -102,7 +127,11 @@ used interchangeably in different contexts.
 
 ---
 
-![Image 6]({{ '/assets/img/2013/horizontal_bars_6.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2013/horizontal_bars_6.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 The final image is from the Find My Friends app. Like I mentioned above, the
 horizontal bars symbol with or without the bullet point dots is used

@@ -21,8 +21,11 @@ per se, but GNC is missing out on a huge opportunity to connect with its
 customer base. Just take a look at this timeline snapshot.
 
 {:.text-center}
-![@GNCLiveWell's Timeline]({{ "/assets/img/2012/gnc_timeline.png" | relative_url
-}})
+<img
+  src="{{ '/assets/img/2012/gnc_timeline.png' | relative_url}}"
+  alt="@GNCLiveWell's Timeline"
+  class="img-fluid"
+/>
 
 This is from the feed that shows every tweet from the @GNCLiveWell account,
 including any @messages sent to other users. **Notice how there aren't any**.
@@ -43,8 +46,11 @@ care about this, because without followers nobody sees your tweets!
 ---
 
 {:.text-center}
-![@garyvee's Timeline]({{ "/assets/img/2012/garyvee_timeline.png" | relative_url
-}})
+<img
+  src="{{ '/assets/img/2012/garyvee_timeline.png' | relative_url }}"
+  alt="@garyvee's Timeline"
+  class="img-fluid"
+/>
 
 On the other side of things, look at [@garyvee](http://www.twitter.com/garyvee).
 Gary Vaynerchuck is an entrepreneurial business development guru (also a wine

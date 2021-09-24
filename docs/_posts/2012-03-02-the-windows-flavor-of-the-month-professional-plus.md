@@ -19,6 +19,7 @@ categories:
           {{ '/assets/img/2012/verge_windows_cds@2x.jpg' | relative_url }} 2x"
   src="{{ '/assets/img/2012/verge_windows_cds.jpg' | relative_url }}"
   alt="Photo from original article"
+  class="img-fluid"
 />
 
 There is a story over at [The
@@ -43,6 +44,7 @@ The full list from the article is:
   src="{{ '/assets/img/2012/win8fish.png' | relative_url }}"
   srcset="{{ '/assets/img/2012/win8fish@2x.png' | relative_url }} 2x"
   alt="8 is everywhere you look!"
+  class="img-fluid"
 />
 
 Interestingly, this would mean a grand total of **eight** editions of Windows

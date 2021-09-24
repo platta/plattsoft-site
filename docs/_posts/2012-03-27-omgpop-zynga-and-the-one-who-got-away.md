@@ -27,6 +27,7 @@ working under Zynga.
   src="{{ '/assets/img/2012/shaypierce.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/shaypierce@2x.jpg' | relative_url }} 2x"
   alt="Shay Pierce"
+  class="img-fluid"
 />](http://www.gamasutra.com/view/news/167244/Turning_down_Zynga_Why_I_left_after_the_210M_Omgpop_buy.php)
 
 The lone holdout's name is Shay Pierce, and he's got a few reasons for his
@@ -39,6 +40,7 @@ today's world.
 [<img
   src="{{ '/assets/img/2012/connectrode.png' | relative_url }}"
   srcset="{{ '/assets/img/2012/connectrode@2x.png' | relative_url }} 2x"
+  class="img-fluid"
 />](http://www.deepplaid.com/connectrode/Site/Connectrode.html)
 
 So what is Shay Pierce doing now? He's going back to his roots. Previously,

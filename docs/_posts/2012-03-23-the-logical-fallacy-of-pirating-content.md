@@ -24,6 +24,7 @@ well worth a read!
 [<img
   src="{{ '/assets/img/2012/gameofthrones.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/gameofthrones@2x.jpg' | relative_url }} 2x"
+  class="img-fluid"
 />
 Help! I'm Being Forced To Pirate Game Of Thrones Against My Will!
 ](http://pandodaily.com/2012/03/20/a-winter-of-piracy-is-coming/)
@@ -31,6 +32,7 @@ Help! I'm Being Forced To Pirate Game Of Thrones Against My Will!
 [<img
   src="{{ '/assets/img/2012/applestore.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/applestore@2x.jpg' | relative_url }} 2x"
+  class="img-fluid"
 />
 Help! I'm Being Forced To Steal An iPhone Against My Will!
 ](http://pandodaily.com/2012/03/20/help-im-being-forced-to-steal-an-iphone-against-my-will/)

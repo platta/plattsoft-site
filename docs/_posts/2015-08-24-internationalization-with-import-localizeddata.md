@@ -44,9 +44,13 @@ called `PSUICultureExample.ps1` that looks like this:
 
 ...and it produces this message box:
 
-{:.text-center}
-![The hello world message box in English]({{
-'/assets/img/2015/hello_world_english.png' | relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{ '/assets/img/2015/hello_world_english.png' | relative_url }}"
+  class="figure-img img-fluid"
+/>
+<figcaption class="figure-caption">The hello world message box in English</figcaption>
+</figure>
 
 Pretty straightforward, but it needs to be globalized.
 
@@ -135,9 +139,13 @@ MessageBody = Este es un pequeño ejemplo que muestra cómo localizar cadenas en
 
 ...and now when I run it, it looks like this:
 
-{:.text-center}
-![The hello world message box in
-Spanish]({{'/assets/img/2015/hello_world_spanish.png' | relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{'/assets/img/2015/hello_world_spanish.png' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">The hello world message box in Spanish</figcaption>
+</figure>
 
 ¡Bueno! Now everything works for our users in Spain. Our two-line script will
 automatically display Spanish text for users that have Windows configured to
@@ -145,9 +153,13 @@ display the UI in Spanish.
 
 ## Summary
 
-{:.text-center}
-![Example Folder Structure]({{ '/assets/img/2015/hello_world_project.png' |
-relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{ '/assets/img/2015/hello_world_project.png' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Example Folder Structure</figcaption>
+</figure>
 
 This is what the folder structure of the full example looks like.
 

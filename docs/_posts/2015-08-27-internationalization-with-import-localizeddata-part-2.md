@@ -33,9 +33,13 @@ involved internationalization, which is how I found myself using
 configuring virtual machines as they were provisioned, including updating the
 Regional Settings based on the users' preferences.
 
-{:.text-center}
-![Regional Settings - Keyboards and Languages
-Tab]({{'/assets/img/2015/regional_settings.jpg' | relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{'/assets/img/2015/regional_settings.jpg' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Regional Settings - Keyboards and Languages Tab</figcaption>
+</figure>
 
 The client had specified which settings on the Regional Settings applet they
 would like to set based on the culture, and had wanted to leave some of the
@@ -64,9 +68,13 @@ the correct value of `ja-JP` in `$PSUICulture`. It turned out to be that both
 the Display Language and the System Locale had to be set to Japanese in order
 for it to work.
 
-{:.text-center}
-![Regional Settings - Administrative
-Tab]({{'/assets/img/2015/regional_settings2.jpg' | relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{'/assets/img/2015/regional_settings2.jpg' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Regional Settings - Administrative Tab</figcaption>
+</figure>
 
 I thought I was losing my mind, I had tested this so many times and I was always
 able to get the correct results just by changing the Display Language. I started

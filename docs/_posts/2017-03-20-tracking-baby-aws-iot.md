@@ -29,6 +29,7 @@ Read on to learn more about how I did it.
   src="{{ '/assets/img/2017/my_family.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2017/my_family@2x.jpg' | relative_url }} 2x"
   alt="My Family"
+  class="img-fluid"
 />
 
 <div class="card border-info mb-3">
@@ -57,7 +58,10 @@ There are four separate GitHub repositories for this project.
 
 {:.text-center}
 [
-![diagram]({{ '/assets/img/2017/baby_connect_workflow_small.gif' | relative_url }})
+<img
+  src="{{ '/assets/img/2017/baby_connect_workflow_small.gif' | relative_url }}"
+  class="img-fluid"
+/>
 ]({{ '/assets/img/2017/baby_connect_workflow.gif' | relative_url }})
 
 This diagram (click for detail) shows a high level overview of the automation I

@@ -48,8 +48,14 @@ choice.
 </div>
 
 <!-- Picture beside text -->
-<div class="d-none d-md-block col-md-5 col-lg-4" markdown="1">
-![Not the actual CEO in question]({{ "/assets/img/2017/man-speaker.jpg" | relative_url }})
+<div class="d-none d-md-block col-md-5 col-lg-4">
+<figure class="figure text-center d-block">
+<img
+  src="{{ '/assets/img/2017/man-speaker.jpg' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Not the actual CEO in question</figcaption>
+</figure>
 </div>
 
 </div>
@@ -61,7 +67,13 @@ choice.
 
 <!-- Picture beside text -->
 <div class="d-none d-md-block col-md-5 col-lg-4" markdown="1">
-![Some examples of slurpees]({{ "/assets/img/2017/slurpee2.jpg" | relative_url }})
+<figure class="figure text-center d-block">
+<img
+  src="{{ '/assets/img/2017/slurpee2.jpg' | relative_url }}"
+  class="img-fluid figure-img"
+/>
+<figcaption class="figure-caption">Some examples of slurpees</figcaption>
+</figure>
 </div>
 
 <!-- Text -->

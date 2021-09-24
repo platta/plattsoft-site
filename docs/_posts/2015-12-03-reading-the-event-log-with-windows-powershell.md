@@ -106,7 +106,11 @@ error. To find the name I need to use, I run the command:
 Get-WinEvent -ListLog *PowerShell*
 ```
 
-![Screenshot]({{ '/assets/img/2015/eventlog_002.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_002.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 and see that there are a couple of options. Although there is one that mentions
 Desired State Configuration, it doesn't sound like what I'm looking for. Let's
@@ -116,12 +120,20 @@ see if the name uses the abbreviation DSC.
 Get-WinEvent -ListLog *DSC*
 ```
 
-![Screenshot]({{ '/assets/img/2015/eventlog_003.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_003.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 That looks like a much better fit. To be sure, you can always check the
 properties of a log in Event Viewer and look at the file name.
 
-![Screenshot]({{ '/assets/img/2015/eventlog_004.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_004.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 Bingo.
 
@@ -172,7 +184,11 @@ Get-WinEvent -FilterHashTable @{LogName = "Application"} -MaxEntries 50 | Where-
 
 Running one of the commands above might produce output that looks like this:
 
-![Screenshot]({{ '/assets/img/2015/eventlog_001.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_001.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 but what `Get-WinEvent` actually returns are objects of type
 `[System.Diagnostics.Eventing.Reader.EventLogRecord]`. PowerShell is being nice
@@ -202,7 +218,11 @@ it in a variable `$x`. If I just examine `$x`, I can see the full message of the
 event is "The session &#8216;183c457c-733c-445d-b5d6-f04fc9623c8b' was
 disconnected".
 
-![Screenshot]({{ '/assets/img/2015/eventlog_005.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_005.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 This is where things get interesting. Since Windows Vista, event logs have been
 stored in XML format. If you run `(Get-WinEvent -ListLog
@@ -224,7 +244,11 @@ accelerator in front of it tells PowerShell to read that string and create an
 XML object from it. From there, I navigate the XML hierarchy to the place where
 the insertion string data is stored.
 
-![Screenshot]({{ '/assets/img/2015/eventlog_006.jpg' | relative_url }})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2015/eventlog_006.jpg' | relative_url }}"
+  class="img-fluid"
+/>
 
 The messages for different Event IDs can have different numbers of insertion
 strings, and you may need to explore a little to figure out exactly how to pull

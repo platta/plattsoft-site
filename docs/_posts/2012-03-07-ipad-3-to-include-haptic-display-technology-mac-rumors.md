@@ -21,6 +21,7 @@ Rumors](http://www.macrumors.com/2012/03/07/ipad-3-to-include-haptic-display-tec
   src="{{ '/assets/img/2012/apple_touch_event.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/apple_touch_event@2x.jpg' | relative_url }} 2x"
   alt="Apple's invitation to March 7th Media Event"
+  class="img-fluid"
 />
 
 How cool would this be? It would certainly fit with the message on Apple's
@@ -38,6 +39,7 @@ Pacific time.
   src="{{ '/assets/img/2012/senseg_haptic_banner.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2012/senseg_haptic_banner@2x.jpg' | relative_url }} 2x"
   alt="Senseg, the company that &quot;turns touch screens into Feel Fcreens&quot;"
+  class="img-fluid"
 />
 ](https://senseg.com)
 

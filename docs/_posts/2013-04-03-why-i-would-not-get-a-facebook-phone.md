@@ -14,6 +14,7 @@ categories:
 <img
   src="{{ '/assets/img/2013/facebook_phone.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2013/facebook_phone@2x.jpg' | relative_url }} 2x"
+  class="img-fluid"
 />
 
 I read an [interesting

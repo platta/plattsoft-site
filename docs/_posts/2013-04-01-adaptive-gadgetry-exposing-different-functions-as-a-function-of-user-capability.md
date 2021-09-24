@@ -11,7 +11,11 @@ categories:
   - Technology
 ---
 {:.float-left .mr-3}
-![Adaptive Gadgets]({{ '/assets/img/2013/adaptive_gadgets.png' | relative_url }})
+<img
+  src="{{ '/assets/img/2013/adaptive_gadgets.png' | relative_url }}"
+  alt="Adaptive Gadgets"
+  class="img-fluid"
+/>
 
 What would you want to happen when you earn enough XP to level up your TV?
 

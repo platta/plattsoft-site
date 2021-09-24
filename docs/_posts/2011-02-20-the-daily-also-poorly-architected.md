@@ -29,7 +29,11 @@ store, and the second, but I never actually installed either of them.  Here's
 why:
 
 {:.text-center}
-![Why are you yelling?]({{ "/assets/img/2011/thedaily.png" | relative_url }})
+<img
+  src="{{ '/assets/img/2011/thedaily.png' | relative_url }}"
+  class="img-fluid"
+  alt="Why are you yelling?"
+/>
 
 This is bad architecture if I've ever seen it.  The way that iOS deals with data
 and files during installs, updates, backups, and restores,

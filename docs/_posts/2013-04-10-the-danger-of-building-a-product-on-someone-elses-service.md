@@ -15,6 +15,7 @@ categories:
   src="{{ '/assets/img/2013/appgratis.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2013/appgratis@2x.jpg' | relative_url }} 2x"
   alt="AppGratis, Recently Pulled from Apple's App Store"
+  class="img-fluid"
 />
 
 A few days ago, a popular iOS app, AppGratis, was pulled from Apple's App Store
@@ -34,6 +35,7 @@ how much, I haven't used the app) of its functionality.
   src="{{ '/assets/img/2013/google_reader.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2013/google_reader@2x.jpg' | relative_url }} 2x"
   alt="Google Reader Shutting Down July 1, 2013"
+  class="img-fluid"
 />
 
 Another example of this is the myriad of apps which provide a native app front

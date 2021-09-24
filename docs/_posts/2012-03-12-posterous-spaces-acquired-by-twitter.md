@@ -10,8 +10,12 @@ permalink: /2012/03/12/posterous-spaces-acquired-by-twitter/
 categories:
   - General Blog
 ---
-![Posterous Spaces Logo]({{ '/assets/img/2012/posterous_logo.png' | relative_url
-}})
+{:.text-center}
+<img
+  src="{{ '/assets/img/2012/posterous_logo.png' | relative_url }}"
+  alt="Posterous Spaces Logo"
+  class="img-fluid"
+/>
 
 News is spreading rapidly that Twitter has acquired Posterous Spaces, a blogging
 site whose tagline is simply "Share Smarter". Twitter has posted a blog post
