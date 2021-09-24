@@ -6,7 +6,7 @@ description: ""
 
 domain: platta.github.io
 url: https://platta.github.io
-baseurl: /plattsoft-site/
+baseurl: /
 
 twitter_username: platta
 github_username:  platta
