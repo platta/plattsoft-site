@@ -14,9 +14,11 @@ Style sheets are built using SCSS. The main style sheet is in
 `pygments` folder contains coloring rules for code snippets, and the rest of the
 styles are defined in the `plattsoft` folder.
 
-## TODO List
+## wp_content
 
-- Google analytics key
-- Favicon
-- Apple icons
-- Cookies thing?
+The old `wp_content/uploads` contents are in the root of the repo for now. Just
+hanging onto them in case they're needed.
+
+## img_src
+
+Source files for the logo/favicon. Maybe eventually other stuff.

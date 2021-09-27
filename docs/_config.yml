@@ -12,6 +12,9 @@ twitter_username: platta
 github_username:  platta
 linkedin_username: platta
 
+# Google analytics key.
+google_analytics: UA-17483215-1
+
 # Build settings
 markdown: kramdown
 

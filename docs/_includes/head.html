@@ -3,6 +3,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <!-- Favicons -->
+    <link rel="icon" sizes="16x16 32x32" href="{{ '/assets/favicon.ico' || relative_url }}" />
+    <!--[if IE]><link rel="shortcut icon" href="{{ '/assets/favicon.ico' || relative_url }}"/><![endif]-->
+
+    <!-- Apple touch icon -->
+    <link rel="apple-touch-icon-precomposed" href="{{ '/assets/favicon-152.png' | relative_url }}"/>
+
+    <!-- IE 10 Metro tile -->
+    <meta name="msapplication-TileColor" content="#FFFFFF"/>
+    <meta name="msapplication-TileImage" content="{{ '/assets/favicon-144.png' | relative_url }}"/>
+
+    <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ 'assets/favicon-152.png' | relative_url }}"/>
+
+    <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ 'assets/favicon-144.png' | relative_url }}"/>
+
+    <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ 'assets/favicon-120.png' | relative_url }}"/>
+
+    <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ 'assets/favicon-114.png' | relative_url }}"/>
+
+    <!-- For first- and second-generation iPad: -->
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ 'assets/favicon-72.png' | relative_url }}"/>
+
+    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ 'assets/favicon-57.png' | relative_url }}"/>
+
+    <!-- Nothing specific, just supporting an additional szie -->
+    <link rel="icon" sizes="32x32" href="{{ 'assets/favicon-32.png' | relative_url }}"/>
+
     <title>
         {% if page.title %}
             {{ page.title | escape }} - {{ site.title | escape }}
