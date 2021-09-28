@@ -47,6 +47,7 @@ concepts of programming, it ultimately doesn’t matter which language you choos
 to be proficient in.** There are notable differences but, with a solid grasp of
 the basics, they all become easy to pick up..
 </p>
+<a href="{{ '/categories/programming' | relative_url }}">See posts</a>
 </div>
 </div>
 
@@ -63,6 +64,7 @@ that are important. Understanding the way the various stages of the SDLC
 interact with and feed into one another is also crucial to running a successful
 project. Here on my blog, you’ll find many posts discussing these intricacies.
 </p>
+<a href="{{ '/categories/software-engineering' | relative_url }}">See posts</a>
 </div>
 </div>
 
@@ -78,6 +80,7 @@ writing quite a lot about Windows administration and the tools we use to manage
 virtual environments. From the Raspberry Pi to the Internet of Things, you’ll
 read about it here on my blog.
 </p>
+<a href="{{ '/categories/technology' | relative_url }}">See posts</a>
 </div>
 </div>
 
@@ -91,6 +94,7 @@ The Cloud is a natural extension of virtualization so, not surprisingly, I do a
 lot of that, too. Cloud concepts are still pretty new, and very powerful. There
 is so much to explore there as we use it to revolutionize our industry.
 </p>
+<a href="{{ '/categories/cloud' | relative_url }}">See posts</a>
 </div>
 </div>
 
@@ -108,6 +112,7 @@ experiences I’ve learned a bit about the soft skills that we need to apply in
 business. Sometimes I’ll write about an interesting observation I’ve had in this
 field.
 </p>
+<a href="{{ '/categories/soft-skills' | relative_url }}">See posts</a>
 </div>
 </div>
 </div>
