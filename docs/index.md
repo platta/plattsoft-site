@@ -27,7 +27,7 @@ worthwhile. I hope you find something valuable from reading.
 {% endfor %}
 </div>
 
-<div class="col-md-6 pl-md-0" markdown="1">
+<div class="col-md-6" markdown="1">
 
 {: .text-center}
 ## What do I write about?

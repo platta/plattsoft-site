@@ -15,38 +15,59 @@ about helping my audience learn and grow.
 
 ## What can I speak about
 
-<div class="row">
+<div class="row text-center">
 
-<div class="col-md-4" markdown="1">
+<!-- First card -->
+<div class="col-lg-4">
 
-### Understanding Technology
-
+<div class="card mb-3">
+<div class="card-body">
+<h5 class="card-title">Understanding Technology</h5>
+<p class="card-text" markdown="1">
 Do you have a group of non-technical professionals that could benefit from a
 greater understanding of a certain technology? You might be surprised how
 learning more about virtualization, cloud computing, or even basic networking
 might improve your team's effectiveness.
+</p>
+</div>
 </div>
 
-<div class="col-md-4" markdown="1">
+</div>
 
-### Diving Deep
+<!-- Second card -->
+<div class="col-lg-4">
 
+<div class="card mb-3">
+<div class="card-body">
+<h5 class="card-title">Diving Deep</h5>
+<p class="card-text" markdown="1">
 Need to get your team up to speed on a newly adopted technology? I can work with
 you to prepare a boot camp that will take through a high level overview followed
 by a deep dive into its internal workings. Together, we will pick the technology
 apart, piece by piece, and put it back together again.
+</p>
+</div>
 </div>
 
-<div class="col-md-4" markdown="1">
+</div>
 
-### Sharing Experiences
+<!-- Third card -->
+<div class="col-lg-4">
 
+<div class="card mb-3">
+<div class="card-body">
+<h5 class="card-title">Sharing Experiences</h5>
+<p class="card-text">
 Over the many years I've spent in technology, software engineering, and
 consulting, I've developed a a deep well of experience to draw from. I have
 learned many lessons about being an effective employee, a positive force for
 change, and a trusted advisor that I can share.
+</p>
+</div>
+</div>
 </div>
 
+<!-- End row -->
 </div>
 
 ## About me
