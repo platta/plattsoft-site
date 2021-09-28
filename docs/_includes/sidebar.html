@@ -1,29 +1,48 @@
-<div class="card border-secondary mb-3">
-  <div class="card-header bg-secondary text-white">
-    <h5 class="card-title">About Adam Platt</h5>
-  </div>
-
+<div class="card mb-3 d-none d-lg-block">
+  <img
+    src="{{ '/assets/img/sidebar/headshot.jpg' | relative_url }}"
+    srcset="{{ '/assets/img/sidebar/headshot@2x.jpg' | relative_url }} 2x"
+    class="card-img-top"
+  />
   <div class="card-body">
-    <div class="row">
-      <div class="col-6 col-sm-5 col-md-4 col-lg-12 text-center">
-        <img
-          src="{{ '/assets/img/sidebar/headshot.jpg' | relative_url }}"
-          srcset="{{ '/assets/img/sidebar/headshot@2x.jpg' | relative_url }} 2x"
-          class="img-fluid"
-        />
+    <h5 class="card-title">About Adam Platt</h5>
+
+    <p class="card-text">Adam Platt is a technologist with more than a decade of
+    experience across the full stack. His passion for technology and penchant
+    for rendering complex technical ideas into simple terms have made him an
+    in-demand speaker. His resume includes BriForum, the PowerShell Summit,
+    teaching engagements and more.</p>
+
+    <p class="card-text">He is one of the <span class="text-monospace">10</span>
+    types of people who understand binary and he can solve a Rubik’s Cube.</p>
+  </div>
+</div>
+
+
+<div class="card mb-3 d-lg-none">
+  <div class="row no-gutters">
+    <div class="col-4">
+      <img
+        src="{{ '/assets/img/sidebar/headshot.jpg' | relative_url }}"
+        srcset="{{ '/assets/img/sidebar/headshot@2x.jpg' | relative_url }} 2x"
+        class="card-img"
+      />
+    </div>
+    <div class="col-8">
+      <div class="card-body">
+        <h5 class="card-title">About Adam Platt</h5>
+
+        <p class="card-text">Adam Platt is a technologist with more than a
+        decade of experience across the full stack. His passion for technology
+        and penchant for rendering complex technical ideas into simple terms
+        have made him an in-demand speaker. His resume includes BriForum, the
+        PowerShell Summit, teaching engagements and more.</p>
+
+        <p class="card-text">He is one of the <span
+        class="text-monospace">10</span>
+        types of people who understand binary and he can solve a Rubik’s
+        Cube.</p>
       </div>
-
-      <div class="col-6 col-sm-7 col-md-8 col-lg-12 mt-lg-3">
-        <p class="small">Adam Platt is a technologist with more than a decade of
-          experience across the full stack. His passion for technology and penchant for
-          rendering complex technical ideas into simple terms have made him an in-demand
-          speaker. His resume includes BriForum, the PowerShell Summit, teaching
-          engagements and more.
-        </p>
-
-        <p class="small">He is one of the <span class="text-monospace">10</span> types of people who understand binary and
-          he can solve a Rubik’s Cube.
-        </p>
       </div>
     </div>
   </div>

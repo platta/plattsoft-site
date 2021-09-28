@@ -1,7 +1,12 @@
-<article class="mb-3">
-  <h3><a href="{{ include.content.url | relative_url}}">{{ include.content.title }}</a></h3>
-  <p>{{ include.content.excerpt }}</p>
-  <small>
-    {{ include.content.date | date: "%Y-%m-%d" }} | {{ include.content.categories }}
-  </small>
-</article>
+<div class="card mb-3">
+  <div class="card-body">
+    <small class="text-muted">{{ include.content.categories }}</small>
+
+    <h4 class="card-title">{{ include.content.title }}</h4  >
+    <h6 class="card-subtitle mb-2 text-muted">{{ include.content.date | date: "%Y-%m-%d" }}</h6>
+
+    <p class="card-text">{{ include.content.excerpt }}</p>
+
+    <a href="{{ include.content.url | relative_url}}">Continue reading</a>
+  </div>
+</div>
