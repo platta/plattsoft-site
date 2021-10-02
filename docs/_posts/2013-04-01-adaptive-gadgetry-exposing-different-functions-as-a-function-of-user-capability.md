@@ -10,7 +10,7 @@ permalink: /2013/04/01/adaptive-gadgetry-exposing-different-functions-as-a-funct
 categories:
   - Technology
 ---
-{:.float-left .mr-3}
+{:.float-start .me-3}
 <img
   src="{{ '/assets/img/2013/adaptive_gadgets.png' | relative_url }}"
   alt="Adaptive Gadgets"

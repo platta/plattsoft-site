@@ -1,118 +1,78 @@
+// Import plattsoft variables.
 @import "_variables";
 
-$theme-colors: (
-    "primary": $ps-blue,
-    "secondary": $ps-orange,
-    "info": $ps-purple,
-    "dark": $ps-dark,
-    "medium": $ps-medium,
-    "light": $ps-light,
-    "dark-gray": $ps-dark-gray,
-    "medium-gray": $ps-medium-gray,
-    "light-gray": $ps-light-gray
-);
+// Import plattsoft fonts.
+@import "_fonts";
 
-// Open Sans font.
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-Bold.ttf");
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: oblique;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-Italic.ttf");
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-Italic.ttf");
-    font-weight: normal;
-    font-style: oblique;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-Light.ttf");
-    font-weight: lighter;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-LightItalic.ttf");
-    font-weight: lighter;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Open Sans";
-    src: url("../../assets/font/Open Sans/OpenSans-LightItalic.ttf");
-    font-weight: lighter;
-    font-style: oblique;
-}
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../bootstrap/functions";
+
+// 2. Include any default variable overrides here
+$primary: $ps-blue;
+$secondary: $ps-orange;
+$info: $ps-purple;
+$dark: $ps-dark;
+$light: $ps-light;
+
 $font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-
-// Hack font for monospace.
-@font-face {
-    font-family: "Hack";
-    src: url("../../assets/font/Hack/Hack-Regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Hack";
-    src: url("../../assets/font/Hack/Hack-Bold.ttf");
-    font-weight: bold;
-    font-style: normal
-}
-@font-face {
-    font-family: "Hack";
-    src: url("../../assets/font/Hack/Hack-Italic.ttf");
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Hack";
-    src: url("../../assets/font/Hack/Hack-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Hack";
-    src: url("../../assets/font/Hack/Hack-Italic.ttf");
-    font-weight: normal;
-    font-style: oblique;
-}
-@font-face {
-    font-family: "Hack";
-    src: url("/assets/font/Hack/Hack-BoldItalic.ttf");
-    font-weight: bold;
-    font-style: oblique;
-}
-
 $font-family-monospace: Hack, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
+// Modify the contrast ratio so bootstrap chooses white to contrast with the
+// primary plattsoft blue, instead of black which looks funny.
+$min-contrast-ratio: 3;
 
-// Import bootstrap base.
-@import "../bootstrap/bootstrap";
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../bootstrap/variables";
+@import "../bootstrap/mixins";
 
+// 4. Include any optional Bootstrap components as you like
+// Configuration
+@import "../bootstrap/utilities";
+
+// Layout & components
+@import "../bootstrap/root";
+@import "../bootstrap/reboot";
+@import "../bootstrap/type";
+@import "../bootstrap/images";
+@import "../bootstrap/containers";
+@import "../bootstrap/grid";
+@import "../bootstrap/tables";
+@import "../bootstrap/forms";
+@import "../bootstrap/buttons";
+@import "../bootstrap/transitions";
+@import "../bootstrap/dropdown";
+@import "../bootstrap/button-group";
+@import "../bootstrap/nav";
+@import "../bootstrap/navbar";
+@import "../bootstrap/card";
+@import "../bootstrap/accordion";
+@import "../bootstrap/breadcrumb";
+@import "../bootstrap/pagination";
+@import "../bootstrap/badge";
+@import "../bootstrap/alert";
+@import "../bootstrap/progress";
+@import "../bootstrap/list-group";
+@import "../bootstrap/close";
+@import "../bootstrap/toasts";
+@import "../bootstrap/modal";
+@import "../bootstrap/tooltip";
+@import "../bootstrap/popover";
+@import "../bootstrap/carousel";
+@import "../bootstrap/spinners";
+@import "../bootstrap/offcanvas";
+@import "../bootstrap/placeholders";
+
+// Helpers
+@import "../bootstrap/helpers";
+
+// Utilities
+@import "../bootstrap/utilities/api";
+
+
+// Body background
+.bg-medium {
+    background-color: $ps-medium;
+}
 
 // Extra border utility classes.
 .border-1 {

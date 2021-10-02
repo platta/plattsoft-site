@@ -10,7 +10,7 @@ permalink: /2013/04/03/why-i-would-not-get-a-facebook-phone/
 categories:
   - General Blog
 ---
-{:.float-right}
+{:.float-end}
 <img
   src="{{ '/assets/img/2013/facebook_phone.jpg' | relative_url }}"
   srcset="{{ '/assets/img/2013/facebook_phone@2x.jpg' | relative_url }} 2x"

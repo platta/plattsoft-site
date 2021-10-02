@@ -1,26 +1,27 @@
 <!-- Navigation -->
-<div class="container bg-primary flex-shrink-0">
-  <nav class="navbar navbar-expand-lg navbar-dark id=" mainNav">
-    <div class="container">
-      <a class="navbar-brand d-none d-lg-block" href="{{"/" | relative_url }}">
+<div class="container-fluid bg-primary flex-shrink-0">
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand d-none d-md-block" href="{{"/" | relative_url }}">
         <img
-          srcset="{{ "/assets/img/logo_header.gif" | relative_url  }},
-                  {{ "/assets/img/logo_header@2x.gif" | relative_url }} 2x"
-          src="{{ "/assets/img/logo_header.gif" | relative_url }}"
+          src="{{ '/assets/img/logo_header.gif' | relative_url }}"
+          srcset="{{ '/assets/img/logo_header@2x.gif' | relative_url }} 2x"
+
         />
       </a>
-      <a class="navbar-brand d-lg-none" href="{{"/" | relative_url }}">
-        <img srcset="{{ "/assets/img/logo_mobile.gif" | relative_url }},
-                    {{ "/assets/img/logo_mobile@2x.gif" | relative_url }} 2x"
-            src="{{ "/assets/img/logo_mobile.gif" | relative_url }}" />
+      <a class="navbar-brand d-md-none" href="{{"/" | relative_url }}">
+        <img
+          src="{{ '/assets/img/logo_mobile.gif' | relative_url }}"
+          srcset="{{ '/assets/img/logo_mobile@2x.gif' | relative_url }} 2x"
+        />
       </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
             <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
           </li>

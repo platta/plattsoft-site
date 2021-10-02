@@ -48,9 +48,11 @@ from getting a copy of the message and performing duplicate processing.
 From here, there are two things that could happen.
 
 <!-- Card deck to show success and failure -->
-<div class="card-deck mb-3">
+<div class="row row-cols-1 row-cols-md-2">
 
-<div class="card border-success"> <!-- Success card -->
+<!-- Success card -->
+<div class="col mb-3">
+<div class="card border-success h-100">
 
 <div class="card-header">
 <h5 class="card-title">
@@ -66,9 +68,11 @@ of the line for the message.
 </div>
 
 </div> <!-- End card -->
+</div>
 
 <!-- Failure card -->
-<div class="card border-danger">
+<div class="col mb-3">
+<div class="card border-danger h-100">
 
 <div class="card-header">
 <h5 class="card-title">
@@ -84,6 +88,7 @@ processed successfully (and deleted) or until the message expires.
 </div>
 
 </div> <!-- End card -->
+</div>
 
 </div> <!-- End card deck -->
 
@@ -135,17 +140,17 @@ of these is the newly created message's `MessageId`.
 <ul class="nav nav-tabs mb-3" id="sendMessageExample" role="tablist">
 
 <li class="nav-item">
-<a class="nav-link active" id="sendMessageNode-tab" data-toggle="tab" href="#sendMessageNode"
+<a class="nav-link active" id="sendMessageNode-tab" data-bs-toggle="tab" href="#sendMessageNode"
   role="tab" aria-controls="sendMessageNode" aria-selected="true">Node.js</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="sendMessageJava-tab" data-toggle="tab" href="#sendMessageJava"
+<a class="nav-link" id="sendMessageJava-tab" data-bs-toggle="tab" href="#sendMessageJava"
   role="tab" aria-controls="sendMessageJava" aria-selected="false">Java</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="sendMessagePhp-tab" data-toggle="tab" href="#sendMessagePhp"
+<a class="nav-link" id="sendMessagePhp-tab" data-bs-toggle="tab" href="#sendMessagePhp"
   role="tab" aria-controls="sendMessagePhp" aria-selected="false">PHP</a>
 </li>
 
@@ -271,17 +276,17 @@ and `Body` properties.
 <ul class="nav nav-tabs mb-3" id="receiveMessageExample" role="tablist">
 
 <li class="nav-item">
-<a class="nav-link active" id="receiveMessageNode-tab" data-toggle="tab" href="#receiveMessageNode"
+<a class="nav-link active" id="receiveMessageNode-tab" data-bs-toggle="tab" href="#receiveMessageNode"
   role="tab" aria-controls="receiveMessageNode" aria-selected="true">Node.js</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="receiveMessageJava-tab" data-toggle="tab" href="#receiveMessageJava"
+<a class="nav-link" id="receiveMessageJava-tab" data-bs-toggle="tab" href="#receiveMessageJava"
   role="tab" aria-controls="receiveMessageJava" aria-selected="false">Java</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="receiveMessagePhp-tab" data-toggle="tab" href="#receiveMessagePhp"
+<a class="nav-link" id="receiveMessagePhp-tab" data-bs-toggle="tab" href="#receiveMessagePhp"
   role="tab" aria-controls="receiveMessagePhp" aria-selected="false">PHP</a>
 </li>
 
@@ -430,17 +435,17 @@ In this example, I’ve repeated the loop over the received messages from the
 <ul class="nav nav-tabs mb-3" id="deleteMessageExample" role="tablist">
 
 <li class="nav-item">
-<a class="nav-link active" id="deleteMessageNode-tab" data-toggle="tab" href="#deleteMessageNode"
+<a class="nav-link active" id="deleteMessageNode-tab" data-bs-toggle="tab" href="#deleteMessageNode"
   role="tab" aria-controls="deleteMessageNode" aria-selected="true">Node.js</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="deleteMessageJava-tab" data-toggle="tab" href="#deleteMessageJava"
+<a class="nav-link" id="deleteMessageJava-tab" data-bs-toggle="tab" href="#deleteMessageJava"
   role="tab" aria-controls="deleteMessageJava" aria-selected="false">Java</a>
 </li>
 
 <li class="nav-item">
-<a class="nav-link" id="deleteMessagePhp-tab" data-toggle="tab" href="#deleteMessagePhp"
+<a class="nav-link" id="deleteMessagePhp-tab" data-bs-toggle="tab" href="#deleteMessagePhp"
   role="tab" aria-controls="deleteMessagePhp" aria-selected="false">PHP</a>
 </li>
 

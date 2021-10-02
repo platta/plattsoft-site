@@ -79,7 +79,7 @@ should never make it to a source control repository in its current state.
   <div class="card-body">
     <p>If you don't know what Fibonacci numbers are, take a moment to read about
     them.</p>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".fibonacci-explanation">
+    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target=".fibonacci-explanation">
       Fill Me In
     </button>
   </div>
@@ -89,10 +89,10 @@ should never make it to a source control repository in its current state.
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h3 class="modal-title" data-dismiss="modal">
+        <h3 class="modal-title" data-bs-dismiss="modal">
           Fibonacci numbers
         </h3>
-        <button class="close" type="button" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+        <button class="btn-close" type="button" data-bs-dismiss="modal"></button>
       </div>
       <div class="modal-body">
         <p>
@@ -126,7 +126,7 @@ should never make it to a source control repository in its current state.
         </p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
