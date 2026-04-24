@@ -1,7 +1,7 @@
 ---
 title: About
-
 layout: page
+nav: true
 ---
 ## Who am I?
 

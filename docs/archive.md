@@ -1,6 +1,7 @@
 ---
 title: Archive
 layout: default
+nav: true
 ---
 <div class="container-fluid bg-white pt-3">
   <div class="row">

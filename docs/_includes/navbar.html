@@ -27,7 +27,7 @@
           </li>
           {% assign sorted_pages = site.pages | sort: 'title' %}
           {% for item in sorted_pages %}
-          {% if item.title %}
+          {% if item.nav %}
           <li class="nav-item">
             <a class="nav-link" href="{{item.url | relative_url}}">{{item.title}}</a>
           </li>
