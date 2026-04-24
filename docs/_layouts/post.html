@@ -1,23 +1,64 @@
 ---
 layout: default
 ---
-<div class="container-fluid bg-white pt-3">
+<div class="container-fluid bg-white pt-4 post-layout">
   <div class="row">
-    <div class="col-lg-9 px-lg-4 pb-lg-4">
-      <h1>{{ page.title }}</h1>
-      {{ content }}
-      {% if page.tags and page.tags.size > 0 %}
-      <div class="mt-3 pt-3 border-top">
-        <strong>Tags:</strong>
-        {% for tag in page.tags %}
-        <a href="{{ '/tags/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none me-1">{{ tag }}</a>
-        {% endfor %}
+    <div class="col-lg-9 px-lg-5 pb-lg-5 post-content">
+      <div class="post-body mx-auto">
+        <h1 class="mb-4">{{ page.title }}</h1>
+        {% include toc.html %}
+        {{ content }}
+        {% if page.tags and page.tags.size > 0 %}
+        <div class="mt-5 pt-3 border-top">
+          <strong>Tags:</strong>
+          {% for tag in page.tags %}
+          <a href="{{ '/tags/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none me-1">{{ tag }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% include related-posts.html %}
       </div>
-      {% endif %}
-      {% include related-posts.html %}
     </div>
-    <div class="col-lg-3">
+    <div class="col-lg-3 post-sidebar">
       {% include sidebar.html %}
     </div>
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var body = document.querySelector('.post-body');
+  if (!body) return;
+
+  var headings = Array.from(body.querySelectorAll('h2, h3'));
+  if (headings.length < 2) return;
+
+  var nav = document.getElementById('toc-nav');
+  var details = document.getElementById('toc-details');
+  if (!nav || !details) return;
+
+  var ol = document.createElement('ol');
+  ol.className = 'toc-list';
+
+  headings.forEach(function (h) {
+    if (!h.id) return;
+    var li = document.createElement('li');
+    li.className = 'toc-item toc-' + h.tagName.toLowerCase();
+    var a = document.createElement('a');
+    a.href = '#' + h.id;
+    a.className = 'toc-link';
+    a.textContent = h.textContent;
+    li.appendChild(a);
+    ol.appendChild(li);
+  });
+
+  if (ol.children.length === 0) return;
+
+  nav.appendChild(ol);
+  details.classList.remove('d-none');
+
+  if (window.matchMedia('(min-width: 992px)').matches) {
+    details.open = true;
+  }
+});
+</script>

@@ -69,20 +69,242 @@ $min-contrast-ratio: 3;
 @import "../bootstrap/utilities/api";
 
 
+// Shared readable content layout
+.content-body {
+  // ch units target character count directly, adapts with font-size
+  max-width: 68ch;
+
+  // Heading hierarchy — more space above section breaks, less above subsections
+  h2 {
+    margin-top: 2.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.35rem;
+  }
+
+  // Body paragraphs
+  p {
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  // First paragraph reads as a lead-in
+  >p:first-of-type {
+    font-size: 1.05rem;
+    color: lighten($ps-dark-gray, 10%);
+  }
+
+  // Lists — item spacing and nested list indent
+  ul,
+  ol {
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+    padding-left: 1.75rem;
+
+    li {
+      margin-bottom: 0.35rem;
+    }
+
+    ul,
+    ol {
+      margin-top: 0.35rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  // Code blocks — breathing room top and bottom, consistent size
+  pre {
+    margin-top: 1.5rem;
+    margin-bottom: 1.75rem;
+    font-size: 0.875rem;
+    border-radius: 0.375rem;
+  }
+
+  // Inline code — subtle tint, no impact on line height
+  :not(pre)>code {
+    font-size: 0.875em;
+    padding: 0.15em 0.4em;
+    background-color: rgba($ps-blue, 0.07);
+    border-radius: 0.25rem;
+    color: darken($ps-blue, 8%);
+  }
+}
+
+
+// Post page layout
+.post-layout {
+  .post-body {
+    @extend .content-body;
+  }
+
+  .related-posts {
+    .list-group-item {
+      background: transparent;
+
+      .fw-medium {
+        margin-bottom: 0.2rem;
+      }
+
+      small {
+        line-height: 1.3;
+      }
+
+      &:hover {
+        background-color: rgba($ps-blue, 0.05);
+        border-radius: 0.25rem;
+      }
+    }
+  }
+
+  .post-sidebar {
+    padding-top: 0.5rem;
+    padding-left: 1.5rem;
+
+    .card {
+      border-color: rgba(0, 0, 0, 0.08);
+      box-shadow: none;
+
+      .card-body {
+        padding: 1.25rem 1.5rem;
+        font-size: 0.875rem;
+        color: $ps-dark-gray;
+      }
+
+      .card-title {
+        font-size: 1rem;
+        margin-bottom: 0.75rem;
+      }
+    }
+  }
+}
+
+
+// Page layout
+.page-layout {
+  .page-body {
+    @extend .content-body;
+  }
+}
+
+
+// Sidebar author card
+.sidebar-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-author-card {
+  border-color: rgba(0, 0, 0, 0.08);
+
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+}
+
+
+// Smooth anchor scrolling site-wide
+html {
+  scroll-behavior: smooth;
+}
+
+
+// Table of Contents
+.toc-details {
+  border-left: 2px solid rgba($ps-blue, 0.2);
+  padding: 0.4rem 0 0.4rem 1rem;
+
+  .toc-summary {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $ps-medium;
+    cursor: pointer;
+    user-select: none;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::marker {
+      display: none;
+    }
+
+    &::before {
+      content: '▸\00a0';
+      font-style: normal;
+    }
+  }
+
+  &[open] .toc-summary::before {
+    content: '▾\00a0';
+  }
+
+  .toc-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .toc-item {
+    line-height: 1.5;
+  }
+
+  .toc-h3 {
+    padding-left: 1rem;
+  }
+
+  .toc-link {
+    display: inline-block;
+    padding: 0.15rem 0;
+    font-size: 0.875rem;
+    color: $ps-medium-gray;
+    text-decoration: none;
+
+    &:hover {
+      color: $ps-blue;
+    }
+  }
+
+  .toc-h3 .toc-link {
+    font-size: 0.8125rem;
+    color: lighten($ps-medium-gray, 12%);
+  }
+}
+
+
 // Body background
 .bg-medium {
-    background-color: $ps-medium;
+  background-color: $ps-medium;
 }
+
 
 // Extra border utility classes.
 .border-1 {
-    border-width: 1px !important;
+  border-width: 1px !important;
 }
 
 .border-2 {
-    border-width: 2px !important;
+  border-width: 2px !important;
 }
 
 .border-3 {
-    border-width: 3px !important;
+  border-width: 3px !important;
 }
