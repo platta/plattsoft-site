@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+# Quick version check run before `make serve`.
+# Fetches pages.github.com/versions.json (5 s timeout) and compares against
+# the local Ruby and github-pages gem versions.  Always exits 0 — warnings
+# only, never blocks the serve target.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+DOCS_DIR="$REPO_ROOT/docs"
+VERSIONS_URL="https://pages.github.com/versions.json"
+
+# ── Fetch (skip silently if offline) ─────────────────────────────────────────
+VERSIONS_JSON=$(curl -fsSL --max-time 5 "$VERSIONS_URL" 2>/dev/null) || {
+  echo "  (version check skipped: could not reach pages.github.com)"
+  exit 0
+}
+
+parse_json() {
+  local key="$1"
+  if command -v jq &>/dev/null; then
+    echo "$VERSIONS_JSON" | jq -r ".[\"$key\"]"
+  else
+    echo "$VERSIONS_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin)['$key'])"
+  fi
+}
+
+REQUIRED_RUBY=$(parse_json "ruby")
+REQUIRED_GHPAGES=$(parse_json "github-pages")
+
+WARNINGS=0
+
+# ── Ruby version ──────────────────────────────────────────────────────────────
+if [ -f "$DOCS_DIR/.ruby-version" ]; then
+  LOCAL_RUBY=$(cat "$DOCS_DIR/.ruby-version")
+else
+  LOCAL_RUBY=$(ruby --version 2>/dev/null | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | head -1 || echo "unknown")
+fi
+
+if [ "$LOCAL_RUBY" != "$REQUIRED_RUBY" ]; then
+  echo "WARNING: Ruby version mismatch"
+  echo "  Local:    Ruby $LOCAL_RUBY"
+  echo "  Required: Ruby $REQUIRED_RUBY (GitHub Pages)"
+  WARNINGS=$((WARNINGS + 1))
+fi
+
+# ── github-pages gem version (read from Gemfile.lock — no bundle exec needed) ─
+LOCAL_GHPAGES=$(grep "^    github-pages (" "$DOCS_DIR/Gemfile.lock" 2>/dev/null \
+  | grep -oE '[0-9]+' | head -1 || echo "unknown")
+
+if [ "$LOCAL_GHPAGES" != "$REQUIRED_GHPAGES" ]; then
+  echo "WARNING: github-pages gem version mismatch"
+  echo "  Local:    github-pages $LOCAL_GHPAGES"
+  echo "  Required: github-pages $REQUIRED_GHPAGES (GitHub Pages)"
+  WARNINGS=$((WARNINGS + 1))
+fi
+
+# ── Result ────────────────────────────────────────────────────────────────────
+if [ "$WARNINGS" -gt 0 ]; then
+  echo "  Run 'make sync' to update."
+else
+  echo "GitHub Pages versions OK (Ruby $LOCAL_RUBY, github-pages $LOCAL_GHPAGES)"
+fi
+
+exit 0

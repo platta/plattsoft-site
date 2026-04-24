@@ -1,5 +1,39 @@
 # Plattsoft Web Site
 
+## Local Development
+
+**Prerequisites:** Ruby and Bundler must be installed (`gem install bundler`).
+
+**One-time setup** (install gems):
+
+```bash
+make install
+# or: cd docs && bundle install
+```
+
+**Sync versions with GitHub**:
+
+```bash
+make sync
+```
+
+This reads the current dependencies from GitHub and modifies your local
+environment to match so that your local process should be an exact match with
+what GitHub Pages will create when you push a commit.
+
+**Start the local preview server:**
+
+```bash
+make serve
+# or: cd docs && bundle exec jekyll serve
+```
+
+Then open <http://localhost:4000> in your browser. Jekyll watches for file
+changes and rebuilds automatically; refresh to see updates.
+
+The generated `docs/_site/` directory is git-ignored and should never be
+committed.
+
 ## Mathjax for LaTeX
 
 Add `usemathjax: true` to the frontmatter of a post, and the `scripts.html`

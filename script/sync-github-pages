@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+# Fetch the canonical GitHub Pages dependency versions and sync the local
+# environment to match: installs the required Ruby via rbenv, pins the
+# github-pages gem version in the Gemfile, and runs bundle install.
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+DOCS_DIR="$REPO_ROOT/docs"
+VERSIONS_URL="https://pages.github.com/versions.json"
+
+# ── Fetch versions ────────────────────────────────────────────────────────────
+echo "Fetching GitHub Pages versions from $VERSIONS_URL ..."
+VERSIONS_JSON=$(curl -fsSL "$VERSIONS_URL") || {
+  echo "ERROR: could not reach $VERSIONS_URL" >&2
+  exit 1
+}
+
+parse_json() {
+  local key="$1"
+  if command -v jq &>/dev/null; then
+    echo "$VERSIONS_JSON" | jq -r ".[\"$key\"]"
+  else
+    echo "$VERSIONS_JSON" | python3 -c "import sys,json; print(json.load(sys.stdin)['$key'])"
+  fi
+}
+
+REQUIRED_RUBY=$(parse_json "ruby")
+REQUIRED_GHPAGES=$(parse_json "github-pages")
+echo "  Ruby:         $REQUIRED_RUBY"
+echo "  github-pages: $REQUIRED_GHPAGES"
+echo ""
+
+# ── rbenv ─────────────────────────────────────────────────────────────────────
+export PATH="$HOME/.rbenv/bin:$PATH"
+if ! command -v rbenv &>/dev/null; then
+  echo "ERROR: rbenv not found. Install rbenv first." >&2
+  exit 1
+fi
+eval "$(rbenv init -)"
+
+if rbenv versions --bare | grep -qxF "$REQUIRED_RUBY"; then
+  echo "Ruby $REQUIRED_RUBY already installed."
+else
+  echo "Installing Ruby $REQUIRED_RUBY (this takes a few minutes) ..."
+  rbenv install "$REQUIRED_RUBY"
+fi
+
+echo "$REQUIRED_RUBY" > "$DOCS_DIR/.ruby-version"
+echo "Set docs/.ruby-version → $REQUIRED_RUBY"
+
+# ── Gemfile ───────────────────────────────────────────────────────────────────
+python3 - "$DOCS_DIR/Gemfile" "$REQUIRED_GHPAGES" <<'PYEOF'
+import sys, re
+gemfile, version = sys.argv[1], sys.argv[2]
+with open(gemfile) as f:
+    original = f.read()
+# Replace the github-pages gem line, preserving nothing after the gem name
+# so we can write the canonical form.
+updated = re.sub(
+    r'gem "github-pages".*',
+    f'gem "github-pages", "= {version}", group: :jekyll_plugins',
+    original
+)
+if updated == original:
+    print("Gemfile github-pages pin unchanged.")
+else:
+    with open(gemfile, "w") as f:
+        f.write(updated)
+    print(f"Updated Gemfile: github-pages = {version}")
+PYEOF
+
+# ── Gemfile.lock: BUNDLED WITH ────────────────────────────────────────────────
+BUNDLER_VERSION=$(bundle --version | grep -oE '[0-9]+\.[0-9]+\.[0-9]+')
+sed -i "s/^\( *\)[0-9][0-9.]*$/\1$BUNDLER_VERSION/" "$DOCS_DIR/Gemfile.lock"
+echo "Set Gemfile.lock BUNDLED WITH → $BUNDLER_VERSION"
+
+# ── bundle install ────────────────────────────────────────────────────────────
+echo ""
+echo "Running bundle install ..."
+cd "$DOCS_DIR"
+bundle install
+
+echo ""
+echo "Done. Local environment matches GitHub Pages:"
+echo "  Ruby:         $REQUIRED_RUBY"
+echo "  github-pages: $REQUIRED_GHPAGES"
