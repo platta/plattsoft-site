@@ -34,8 +34,9 @@ worthwhile. I hope you find something valuable from reading.
 
 <!-- Soft skills card -->
 <div class="card mb-3">
-<div class="card-header">
-<i class="fas fa-users text-secondary"></i> Soft Skills
+<div class="card-header d-flex justify-content-between align-items-center">
+<span><i class="fas fa-users text-secondary"></i> Soft Skills</span>
+<span class="badge bg-secondary">{{ site.categories['Soft Skills'] | size }}</span>
 </div>
 <div class="card-body">
 <p class="card-text" markdown="1">
@@ -53,8 +54,9 @@ field.
 
 <!-- Cloud card -->
 <div class="card mb-3">
-<div class="card-header">
-<i class="fas fa-cloud text-secondary"></i> Cloud
+<div class="card-header d-flex justify-content-between align-items-center">
+<span><i class="fas fa-cloud text-secondary"></i> Cloud</span>
+<span class="badge bg-secondary">{{ site.categories['Cloud'] | size }}</span>
 </div>
 <div class="card-body">
 <p class="card-text" markdown="1">
@@ -68,8 +70,9 @@ is so much to explore there as we use it to revolutionize our industry.
 
 <!-- Software engineering card -->
 <div class="card mb-3">
-<div class="card-header">
-<i class="fas fa-wrench text-secondary"></i> Software Engineering
+<div class="card-header d-flex justify-content-between align-items-center">
+<span><i class="fas fa-wrench text-secondary"></i> Software Engineering</span>
+<span class="badge bg-secondary">{{ site.categories['Software Engineering'] | size }}</span>
 </div>
 <div class="card-body">
 <p class="card-text" markdown="1">
@@ -86,8 +89,9 @@ project. Here on my blog, you’ll find many posts discussing these intricacies.
 
 <!-- Technology card -->
 <div class="card mb-3">
-<div class="card-header">
-<i class="fas fa-sitemap text-secondary"></i> Technology
+<div class="card-header d-flex justify-content-between align-items-center">
+<span><i class="fas fa-sitemap text-secondary"></i> Technology</span>
+<span class="badge bg-secondary">{{ site.categories['Technology'] | size }}</span>
 </div>
 <div class="card-body">
 <p class="card-text" markdown="1">
@@ -103,8 +107,9 @@ read about it here on my blog.
 
 <!-- Programming card -->
 <div class="card mb-3">
-<div class="card-header">
-<i class="fas fa-terminal text-secondary"></i> Programming
+<div class="card-header d-flex justify-content-between align-items-center">
+<span><i class="fas fa-terminal text-secondary"></i> Programming</span>
+<span class="badge bg-secondary">{{ site.categories['Programming'] | size }}</span>
 </div>
 <div class="card-body">
 <p class="card-text" markdown="1">
