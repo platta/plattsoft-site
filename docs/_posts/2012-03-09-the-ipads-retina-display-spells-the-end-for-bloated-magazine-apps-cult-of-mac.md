@@ -9,6 +9,10 @@ permalink: /2012/03/09/the-ipads-retina-display-spells-the-end-for-bloated-magaz
 
 categories:
   - Technology
+tags:
+  - architecture
+  - ux
+  - systems-thinking
 ---
 The Cult of Mac has an interesting article about how the Retina display is going
 to make it unmanageable for "magazine" apps that store all of their content as

@@ -9,6 +9,9 @@ permalink: /2013/05/20/bones-my-learning-experience/
 
 categories:
   - General Blog
+tags:
+  - learning
+  - automation
 ---
 [Bones](http://themble.com/bones/) is a WordPress theme built by
 [Themble]("http://themble.com) that was recommended to me not long ago by a

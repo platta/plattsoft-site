@@ -9,6 +9,10 @@ permalink: /2010/06/26/what-motivates-us/
 
 categories:
   - Soft Skills
+tags:
+  - leadership
+  - learning
+  - communication
 ---
 I found this video from the Royal Society for the encouragement of Arts,
 Manufactures and Commerce (RSA for short) to be very insightful.

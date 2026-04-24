@@ -9,6 +9,9 @@ permalink: /2013/06/08/what-i-learned-from-the-pink-mohawk/
 
 categories:
   - General Blog
+tags:
+  - leadership
+  - communication
 ---
 {:.text-center}
 <img

@@ -9,6 +9,9 @@ permalink: /2012/02/26/worst-practices-anti-social-networking/
 
 categories:
   - Soft Skills
+tags:
+  - communication
+  - leadership
 ---
 **Pro Tip:** If you have a company Twitter account, use it for more than
 blasting out self-serving advertisements. You are wasting the perfect

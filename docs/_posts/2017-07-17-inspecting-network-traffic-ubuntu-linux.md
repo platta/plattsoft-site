@@ -14,6 +14,10 @@ excerpt: |
 
 categories:
   - Technology
+tags:
+  - systems-thinking
+  - automation
+  - debugging
 ---
 In the course of setting up my own OpenStack cloud, I found myself working up
 and down through multiple layers of network virtualization. Needless to say, I

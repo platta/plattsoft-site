@@ -9,6 +9,10 @@ permalink: /2009/07/21/benefits-of-analogies-in-software-architecture-and-design
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - design
+  - communication
 ---
 Analogies are often used when building or discussing the architecture and design
 of a system. I think there are two main benefits to this.

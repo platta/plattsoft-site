@@ -9,6 +9,8 @@ permalink: /2012/03/06/thoughts-on-the-windows-8-consumer-preview/
 
 categories:
   - Technology
+tags:
+  - ux
 ---
 {:.text-center}
 <img

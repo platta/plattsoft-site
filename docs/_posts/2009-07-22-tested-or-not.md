@@ -9,6 +9,9 @@ permalink: /2009/07/22/tested-or-not/
 
 categories:
   - Software Engineering
+tags:
+  - testing
+  - communication
 ---
 A software system's "tested" status is an interesting thing. Sometimes, in a
 schedule crunch, the decision makers may decide to cut back on testing, hitting

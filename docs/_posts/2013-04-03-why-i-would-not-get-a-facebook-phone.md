@@ -9,6 +9,8 @@ permalink: /2013/04/03/why-i-would-not-get-a-facebook-phone/
 
 categories:
   - General Blog
+tags:
+  - systems-thinking
 ---
 {:.float-end}
 <img

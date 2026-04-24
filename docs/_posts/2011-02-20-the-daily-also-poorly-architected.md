@@ -9,6 +9,9 @@ permalink: /2011/02/20/the-daily-also-poorly-architected/
 
 categories:
   - Soft Skills
+tags:
+  - architecture
+  - debugging
 ---
 A few weeks ago I [took a peek]({{ site.baseurl }}{% post_url
 2011-02-05-the-daily-ill-pass%}) at The Daily (a "digital newspaper" app from

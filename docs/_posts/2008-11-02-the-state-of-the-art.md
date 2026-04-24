@@ -9,6 +9,8 @@ permalink: /2008/11/02/the-state-of-the-art/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
 ---
 There is an enormous discrepancy between our understanding of Software
 Engineering as it should be practiced and the ways that we actually practice

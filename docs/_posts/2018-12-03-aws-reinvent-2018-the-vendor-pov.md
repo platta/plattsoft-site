@@ -13,6 +13,9 @@ excerpt: |
 
 categories:
   - General Blog
+tags:
+  - cloud
+  - leadership
 ---
 I got to attend AWS' re:Invent conference again this year. As expected, it was
 even larger than last year. Instead of focusing on sessions and announcements,

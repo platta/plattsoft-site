@@ -13,6 +13,10 @@ excerpt: |
 
 categories:
   - Cloud
+tags:
+  - cloud
+  - architecture
+  - automation
 ---
 Amazon Web Services (AWS) offers dozens of cloud services. I'm a huge fan of
 their Simple Queue Service (SQS). It's invaluable for asynchronous processing

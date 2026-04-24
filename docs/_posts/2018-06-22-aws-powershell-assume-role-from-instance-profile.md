@@ -13,6 +13,9 @@ excerpt: |
 
 categories:
   - Cloud
+tags:
+  - cloud
+  - automation
 ---
 I wanted to share a workaround I came up with for a specific challenge in the
 AWS PowerShell tools. In a sense, this is an addendum to my Pluralsight course,

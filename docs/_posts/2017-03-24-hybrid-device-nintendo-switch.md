@@ -13,6 +13,8 @@ excerpt: |
 
 categories:
   - Technology
+tags:
+  - systems-thinking
 ---
 I've had my Nintendo Switch for just over twenty four hours, but I've been
 thinking a lot about the innovation that Nintendo brought to the table with

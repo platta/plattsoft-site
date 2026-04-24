@@ -13,6 +13,10 @@ excerpt: |
 
 categories:
   - Soft Skills
+tags:
+  - leadership
+  - automation
+  - communication
 ---
 As a consultant focused on optimization and automation, I’m often met with
 resistance from individuals at my clients. These individuals are afraid I’ve

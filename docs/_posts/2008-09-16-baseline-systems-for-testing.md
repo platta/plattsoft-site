@@ -9,6 +9,9 @@ permalink: /2008/09/16/baseline-systems-for-testing/
 
 categories:
   - Software Engineering
+tags:
+  - testing
+  - debugging
 ---
 I haven't researched this, so I don't know if it's already an established
 practice or not.

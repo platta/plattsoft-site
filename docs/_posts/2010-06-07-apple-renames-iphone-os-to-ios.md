@@ -9,6 +9,8 @@ permalink: /2010/06/07/apple-renames-iphone-os-to-ios/
 
 categories:
   - Technology
+tags:
+  - systems-thinking
 ---
 At his WWDC Keynote speech today, one of the things that Steve Jobs revealed is
 that version 4 of iPhone OS will be bringing with it an entirely new name: iOS.

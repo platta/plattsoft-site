@@ -9,6 +9,8 @@ permalink: /2010/08/12/searching-your-code-with-windows-powershell/
 
 categories:
   - Programming
+tags:
+  - automation
 ---
 I frequently need to search through source code to find references to variable
 and object names. When I got a new workstation running Windows 7 x64, I wanted

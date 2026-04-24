@@ -17,7 +17,8 @@ excerpt: |
   many more can be useful but more often than not I think they have a negative
   impact on developers. These effects can be seen both outside and inside the
   development department.
-
+tags:
+  - communication
 ---
 Having just attended Microsoft's PDC 2008, including the introduction of the new
 Azure services platform, I don't think I ever want to hear the word "cloud"

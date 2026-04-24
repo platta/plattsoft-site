@@ -9,6 +9,8 @@ permalink: /2012/06/11/the-reposting-epidemic/
 
 categories:
   - General Blog
+tags:
+  - communication
 ---
 I've been seeing an interesting trend ever since Pinterest has begun to rise in
 popularity - repost fever. I know this feature has existed in different ways on

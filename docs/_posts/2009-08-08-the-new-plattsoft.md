@@ -9,6 +9,8 @@ permalink: /2009/08/08/the-new-plattsoft/
 
 categories:
   - General Blog
+tags:
+  - general
 ---
 This site has been idle for at least a year, I think.  It's time to shake things
 up a bit by moving to a new Content Management System so that I can focus more

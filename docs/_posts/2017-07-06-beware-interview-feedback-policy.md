@@ -13,6 +13,10 @@ excerpt: |
 
 categories:
   - Soft Skills
+tags:
+  - leadership
+  - career
+  - communication
 ---
 I recently had the opportunity to interview for a position with a well-known
 technology company. Overall it was a positive experience. However, there was one

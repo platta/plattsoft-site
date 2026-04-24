@@ -9,6 +9,10 @@ permalink: /2013/09/08/design-art-science-context-software/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - design
+  - ux
 ---
 I was listening to a recent Hanselminutes podcast where [Scott
 Hanselman](https://twitter.com/shanselman) speaks with [Natasha

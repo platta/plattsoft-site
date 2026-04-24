@@ -11,6 +11,8 @@ categories:
   - Technology
 
 usemathjax: true
+tags:
+  - security
 ---
 Passwords are everywhere in our technology laden world. The number of accounts a
 single person has grows constantly (I sign up for a new web site or service at

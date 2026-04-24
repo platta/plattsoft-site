@@ -9,6 +9,8 @@ permalink: /2013/04/11/ruby-woes-cant-modify-self/
 
 categories:
   - Programming
+tags:
+  - debugging
 ---
 I've always liked to think that anyone can change if they want to badly enough.
  After about half an hour of searching, I discovered that Ruby objects, within

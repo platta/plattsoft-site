@@ -9,6 +9,8 @@ permalink: /2009/09/11/version-control-with-subversion/
 
 categories:
   - Programming
+tags:
+  - general
 ---
 ### Authors: Ben Collins-Sussman, Brian W. Fitzpatrick, C. Michael Pilato
 

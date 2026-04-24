@@ -9,6 +9,8 @@ permalink: /2008/09/18/caching-object-data-with-time-stamps/
 
 categories:
   - Programming
+tags:
+  - design
 ---
 When you build an application backed by a database, one of the things you want
 to minimize is the amount of data transfer between the application and the

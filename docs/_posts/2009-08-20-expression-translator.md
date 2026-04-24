@@ -9,6 +9,8 @@ permalink: /2009/08/20/expression-translator/
 
 categories:
   - General Blog
+tags:
+  - automation
 ---
 In this context, we're talking about simple mathematical expressions like
 `5 + 5`.  There are three ways to write these types of expressions:

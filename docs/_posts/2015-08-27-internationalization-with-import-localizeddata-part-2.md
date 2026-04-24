@@ -9,6 +9,9 @@ permalink: /2015/08/27/internationalization-with-import-localizeddata-part-2/
 
 categories:
   - Programming
+tags:
+  - automation
+  - debugging
 ---
 When I first sat down to write this post, [this one]({{ site.baseurl }}{%
 post_url 2015-08-24-internationalization-with-import-localizeddata %}) came out

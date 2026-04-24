@@ -9,6 +9,10 @@ permalink: /2011/08/23/why-bug-free-is-impossible/
 
 categories:
   - Software Engineering
+tags:
+  - testing
+  - debugging
+  - systems-thinking
 ---
 One of the most common misconceptions about software testing is that, once a
 program or software system has gone through testing, it is free of bugs. If you

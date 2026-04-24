@@ -9,6 +9,8 @@ permalink: /2015/08/24/internationalization-with-import-localizeddata/
 
 categories:
   - Programming
+tags:
+  - automation
 ---
 Recently I was working on a PowerShell project that involved
 internationalization. When researching the best approach, I learned about the

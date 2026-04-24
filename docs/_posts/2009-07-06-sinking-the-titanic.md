@@ -9,6 +9,9 @@ permalink: /2009/07/06/sinking-the-titanic/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - leadership
 ---
 Imagine, for a moment, that you are Poseidon, god of the oceans. The RMS Titanic
 is sailing in your waters, and you don't like that. You decide that you want to

@@ -9,6 +9,10 @@ permalink: /2017/03/20/tracking-baby-aws-iot/
 
 categories:
   - Cloud
+tags:
+  - cloud
+  - architecture
+  - automation
 ---
 
 I don't talk about it much when I'm in a professional mindset, but I do have a

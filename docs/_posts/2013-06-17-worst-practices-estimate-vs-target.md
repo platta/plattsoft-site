@@ -9,6 +9,8 @@ permalink: /2013/06/17/worst-practices-estimate-vs-target/
 
 categories:
   - Software Engineering
+tags:
+  - communication
 ---
 In software engineering, there is a subtle but significant difference between an
 estimate and a target. This difference is often overlooked, and can easily lead

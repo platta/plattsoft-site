@@ -9,6 +9,9 @@ permalink: /2008/10/29/recording-real-time-to-failure/
 
 categories:
   - Software Engineering
+tags:
+  - debugging
+  - design
 ---
 If the mean time to failure is an important statistic, why only measure it
 during development and testing? Building a small, anonymous crash reporting tool

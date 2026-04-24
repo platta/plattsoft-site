@@ -13,6 +13,10 @@ excerpt: |
 
 categories:
   - Soft Skills
+tags:
+  - leadership
+  - career
+  - communication
 ---
 In a world full of other people who could do your job, one thing we are always
 doing as professionals is working to differentiate ourselves from our

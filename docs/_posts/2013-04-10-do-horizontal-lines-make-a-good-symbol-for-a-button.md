@@ -9,6 +9,9 @@ permalink: /2013/04/10/do-horizontal-lines-make-a-good-symbol-for-a-button/
 
 categories:
   - Software Engineering
+tags:
+  - ux
+  - design
 ---
 Recently, a friend of mine asked me what I thought of the "horizontal lines"
 symbol that is being used more and more frequently to indicate where to click or

@@ -9,6 +9,8 @@ permalink: /2010/04/04/is-flash-dying/
 
 categories:
   - Technology
+tags:
+  - ux
 ---
 With the launch of Apple's iPad yesterday, it really makes me wonder if Flash is
 going to get phased out. Actually it almost seems better just to ask how quickly

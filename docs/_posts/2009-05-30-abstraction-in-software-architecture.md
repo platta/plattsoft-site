@@ -9,6 +9,10 @@ permalink: /2009/05/30/abstraction-in-software-architecture/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - design
+  - systems-thinking
 ---
 One of the important parts of the essence of software architecture is that it is
 an abstraction of the actual code of the software system. What's interesting

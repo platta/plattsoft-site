@@ -9,6 +9,8 @@ permalink: /2011/01/08/ioss-app-store-comes-to-the-mac-more-to-follow/
 
 categories:
   - Technology
+tags:
+  - systems-thinking
 ---
 The interface that Apple provides to its users on the iPhone and iPad for
 downloading third party applications has been wildly successful, and now that

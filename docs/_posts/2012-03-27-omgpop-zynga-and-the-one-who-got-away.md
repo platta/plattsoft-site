@@ -9,6 +9,9 @@ permalink: /2012/03/27/omgpop-zynga-and-the-one-who-got-away/
 
 categories:
   - Technology
+tags:
+  - leadership
+  - career
 ---
 As many casual gamers already know, the company Omgpop, makers of the mobile
 sensation Draw Something, was acquired by Zynga, makers of Farmville, Words with

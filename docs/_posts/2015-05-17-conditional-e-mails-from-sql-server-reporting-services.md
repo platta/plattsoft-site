@@ -9,6 +9,8 @@ permalink: /2015/05/17/conditional-e-mails-from-sql-server-reporting-services/
 
 categories:
   - Technology
+tags:
+  - automation
 ---
 SQL Server Reporting Services (SSRS) is a great reporting tool, especially its
 ability to schedule reports to be sent out via e-mail. But one thing nobody

@@ -9,6 +9,9 @@ permalink: /2010/07/20/worst-practices-thinking-you-are-done-learning/
 
 categories:
   - Software Engineering
+tags:
+  - learning
+  - career
 ---
 In the field of software engineering, you are _never_ done learning. That should
 probably be one of the first ten rules of the profession.

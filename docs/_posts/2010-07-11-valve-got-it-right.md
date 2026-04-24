@@ -9,6 +9,9 @@ permalink: /2010/07/11/valve-got-it-right/
 
 categories:
   - Software Engineering
+tags:
+  - ux
+  - design
 ---
 On May 12, 2010, [Valve](http://www.valvesoftware.com) made its Steam platform
 available on the Mac. There are a few key points of the way Valve chose to do

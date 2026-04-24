@@ -14,6 +14,9 @@ excerpt: |
 
 categories:
   - Cloud
+tags:
+  - cloud
+  - automation
 ---
 I've authored
 [a Pluralsight course](https://www.pluralsight.com/courses/aws-tools-windows-powershell-automating-cloud-operations")

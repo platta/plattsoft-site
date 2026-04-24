@@ -9,6 +9,10 @@ permalink: /2009/07/21/analogies-as-abstractions/
 
 categories:
   - Software Engineering
+tags:
+  - design
+  - learning
+  - systems-thinking
 ---
 Analogies are an effective way of communicating knowledge of one domain by
 mapping the domain's concepts to another similar domain that is known by that

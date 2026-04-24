@@ -9,6 +9,9 @@ permalink: /2015/04/25/what-powershell-summit-showed-me/
 
 categories:
   - Technology
+tags:
+  - leadership
+  - learning
 ---
 PowerShell Summit was a blast. I learned some great new skills and connected
 with a ton of folks who are as passionate about technology as I am. But even

@@ -9,6 +9,8 @@ permalink: /2011/02/05/the-daily-ill-pass/
 
 categories:
   - Soft Skills
+tags:
+  - ux
 ---
 On February 2nd, News Corp. launched [The
 Daily](http://itunes.apple.com/us/app/the-daily/id411516732?mt=8), an iPad app

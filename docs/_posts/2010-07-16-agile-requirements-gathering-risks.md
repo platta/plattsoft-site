@@ -9,6 +9,8 @@ permalink: /2010/07/16/agile-requirements-gathering-risks/
 
 categories:
   - Software Engineering
+tags:
+  - general
 ---
 The biggest strength that traditional requirements gathering techniques have is
 their structure. When using these methods, the Requirements Engineer (RE) is

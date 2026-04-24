@@ -9,6 +9,8 @@ permalink: /2010/03/30/windirstat/
 
 categories:
   - General Blog
+tags:
+  - automation
 ---
 WinDirStat is a free program that is great to use when you need to find out
 where all of your precious hard drive space has gone. [Check it

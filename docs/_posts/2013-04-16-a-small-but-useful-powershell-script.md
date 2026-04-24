@@ -14,6 +14,8 @@ excerpt: I always keep this little script handy for when I need to search my
 
 categories:
   - Programming
+tags:
+  - automation
 ---
 I always keep this little PowerShell script handy for when I need to search my
 source code for instances of a particular word or phrase. Most modern IDEs have

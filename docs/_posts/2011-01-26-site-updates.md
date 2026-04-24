@@ -9,6 +9,8 @@ permalink: /2011/01/26/site-updates/
 
 categories:
   - General Blog
+tags:
+  - general
 ---
 I've got a few new goodies set up on the site including
 

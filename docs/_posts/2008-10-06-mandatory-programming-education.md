@@ -9,6 +9,8 @@ permalink: /2008/10/06/mandatory-programming-education/
 
 categories:
   - Programming
+tags:
+  - learning
 ---
 I recently read
 [this article](http://weblog.infoworld.com/fatalexception/archives/2008/10/mandatory_compu.html)

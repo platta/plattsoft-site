@@ -9,6 +9,8 @@ permalink: /2017/03/05/goldilocks-and-the-three-functions/
 
 categories:
   - Programming
+tags:
+  - design
 ---
 
 How much code is enough code? Does the phrase "less is more" apply here? Some

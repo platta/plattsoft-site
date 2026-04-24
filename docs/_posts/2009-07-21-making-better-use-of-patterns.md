@@ -9,6 +9,9 @@ permalink: /2009/07/21/making-better-use-of-patterns/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - design
 ---
 Software Patterns are very useful. They provide us with common solutions to
 related, but distinct, problems.

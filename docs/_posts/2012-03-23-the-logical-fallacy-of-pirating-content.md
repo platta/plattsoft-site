@@ -9,6 +9,8 @@ permalink: /2012/03/23/the-logical-fallacy-of-pirating-content/
 
 categories:
   - General Blog
+tags:
+  - general
 ---
 [The Oatmeal](http://theoatmeal.com) had a comic recently about [trying to
 watch](http://theoatmeal.com/comics/game_of_thrones) the HBO show Game of

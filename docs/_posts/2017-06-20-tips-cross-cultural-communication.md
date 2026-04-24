@@ -13,6 +13,8 @@ excerpt: |
 
 categories:
   - Soft Skills
+tags:
+  - communication
 ---
 Working as a consultant, I get to interact with a wide variety of people. This
 includes clients and partners in other countries across the globe. As such, many

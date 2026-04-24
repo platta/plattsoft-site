@@ -9,6 +9,9 @@ permalink: /2013/07/31/why-strong-typing-is-important/
 
 categories:
   - Programming
+tags:
+  - architecture
+  - debugging
 ---
 You could also call this one "Why I Hate JavaScript," but there are many popular
 languages today that do not employ strong typing. JavaScript was just the

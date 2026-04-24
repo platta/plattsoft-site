@@ -9,6 +9,9 @@ permalink: /2013/04/01/adaptive-gadgetry-exposing-different-functions-as-a-funct
 
 categories:
   - Technology
+tags:
+  - ux
+  - design
 ---
 {:.float-start .me-3}
 <img

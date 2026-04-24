@@ -13,6 +13,10 @@ excerpt: |
 
 categories:
   - Cloud
+tags:
+  - cloud
+  - architecture
+  - security
 ---
 I previously began my overview of Amazon SQS by covering the basic concepts and
 API functions. In this post, I want to cover two additional topics of interest

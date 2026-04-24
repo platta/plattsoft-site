@@ -9,6 +9,9 @@ permalink: /2013/06/03/never-let-the-boss-be-surprised/
 
 categories:
   - Soft Skills
+tags:
+  - communication
+  - leadership
 ---
 {:.text-center}
 <img

@@ -9,6 +9,10 @@ permalink: /2013/05/27/the-ambulance-down-in-the-valley/
 
 categories:
   - Software Engineering
+tags:
+  - architecture
+  - leadership
+  - systems-thinking
 ---
 A while back, I was discussing some of the nonsensical actions that people take
 in the software industry with my parents during a visit. my mom told me to look

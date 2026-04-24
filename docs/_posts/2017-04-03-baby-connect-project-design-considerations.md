@@ -9,6 +9,9 @@ permalink: /2017/04/03/baby-connect-project-design-considerations/
 
 categories:
   - Cloud
+tags:
+  - architecture
+  - cloud
 ---
 Previously, I wrote about my experience creating some automation to keep track
 of my baby daughter's diapers and bottles using a service called

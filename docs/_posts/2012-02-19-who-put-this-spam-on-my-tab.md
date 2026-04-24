@@ -9,6 +9,8 @@ permalink: /2012/02/19/who-put-this-spam-on-my-tab/
 
 categories:
   - General Blog
+tags:
+  - security
 ---
 The next time you receive text message spam, watch out! It's apparently possible
 for a third party to add services to your account without your consent. I

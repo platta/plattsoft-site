@@ -1,7 +1,7 @@
 ---
 title: Consulting Services
-
 layout: page
+published: false
 ---
 ## Valuable experience, insightful solutions
 

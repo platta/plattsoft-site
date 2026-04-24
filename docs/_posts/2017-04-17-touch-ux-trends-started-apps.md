@@ -9,6 +9,9 @@ permalink: /2017/04/17/touch-ux-trends-started-apps/
 
 categories:
   - Technology
+tags:
+  - ux
+  - design
 ---
 It's interesting to watch how the accepted standard for User Experience (UX)
 evolves over time. It's like there is a universal "vocabulary" of actions and

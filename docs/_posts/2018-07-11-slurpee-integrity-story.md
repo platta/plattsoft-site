@@ -13,6 +13,9 @@ excerpt: |
 
 categories:
   - Soft Skills
+tags:
+  - leadership
+  - communication
 ---
 The folks who know what's coming are probably grinning from ear to ear right
 now. This story has followed me for years, and people love busting my chops
