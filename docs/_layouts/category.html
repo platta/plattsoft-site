@@ -3,6 +3,10 @@ layout: page-with-sidebar
 ---
 <h1>{{ page.category-name }} posts</h1>
 
-{% for post in site.categories[page.category-name] %}
-{% include excerpt.html content=post %}
-{% endfor %}
+<div class="row row-cols-1 g-3 mb-3">
+    {% for post in site.categories[page.category-name] %}
+    <div class="col">
+        {% include excerpt.html content=post %}
+    </div>
+    {% endfor %}
+</div>

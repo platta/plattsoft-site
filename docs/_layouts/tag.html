@@ -3,6 +3,10 @@ layout: page-with-sidebar
 ---
 <h1>Tag: {{ page.tag }}</h1>
 {% assign posts = site.tags[page.tag] %}
-{% for post in posts %}
-{% include excerpt.html content=post %}
-{% endfor %}
+<div class="row row-cols-1 g-3 mb-3">
+    {% for post in posts %}
+    <div class="col">
+        {% include excerpt.html content=post %}
+    </div>
+    {% endfor %}
+</div>

@@ -10,9 +10,13 @@ layout: page-with-sidebar
 {% endif %}
 
 {% if topic_posts.size > 0 %}
-{% for post in topic_posts %}
-{% include excerpt.html content=post %}
-{% endfor %}
+<div class="row row-cols-1 g-3 mb-3">
+    {% for post in topic_posts %}
+    <div class="col">
+        {% include excerpt.html content=post %}
+    </div>
+    {% endfor %}
+</div>
 {% else %}
 <p class="text-muted">No posts found for this topic.</p>
 {% endif %}
