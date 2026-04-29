@@ -6,13 +6,27 @@ layout: default
     <div class="col-lg-9 px-lg-5 pb-lg-5 post-content">
       <div class="post-body mx-auto">
         <h1 class="mb-4">{{ page.title }}</h1>
+
+        {% assign topic_pages = site.pages | where: "layout", "topic" %}
+        {% assign matching_topics = topic_pages | where: "topic_key", page.topic %}
+        {% assign post_topic = matching_topics | first %}
+
+        {% if post_topic %}
+        <p class="post-topic small text-muted mb-4">
+          <a href="{{ post_topic.url | relative_url }}" class="text-secondary text-decoration-none fw-semibold">
+            {{ post_topic.title }}
+          </a>
+        </p>
+        {% endif %}
+
         {% include toc.html %}
         {{ content }}
         {% if page.tags and page.tags.size > 0 %}
         <div class="mt-5 pt-3 border-top">
           <strong>Tags:</strong>
           {% for tag in page.tags %}
-          <a href="{{ '/tags/' | append: tag | relative_url }}" class="badge bg-secondary text-decoration-none me-1">{{ tag }}</a>
+          <a href="{{ '/tags/' | append: tag | relative_url }}"
+            class="badge bg-secondary text-decoration-none me-1">{{ tag }}</a>
           {% endfor %}
         </div>
         {% endif %}
@@ -26,39 +40,39 @@ layout: default
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var body = document.querySelector('.post-body');
-  if (!body) return;
+  document.addEventListener('DOMContentLoaded', function () {
+    var body = document.querySelector('.post-body');
+    if (!body) return;
 
-  var headings = Array.from(body.querySelectorAll('h2, h3'));
-  if (headings.length < 2) return;
+    var headings = Array.from(body.querySelectorAll('h2, h3'));
+    if (headings.length < 2) return;
 
-  var nav = document.getElementById('toc-nav');
-  var details = document.getElementById('toc-details');
-  if (!nav || !details) return;
+    var nav = document.getElementById('toc-nav');
+    var details = document.getElementById('toc-details');
+    if (!nav || !details) return;
 
-  var ol = document.createElement('ol');
-  ol.className = 'toc-list';
+    var ol = document.createElement('ol');
+    ol.className = 'toc-list';
 
-  headings.forEach(function (h) {
-    if (!h.id) return;
-    var li = document.createElement('li');
-    li.className = 'toc-item toc-' + h.tagName.toLowerCase();
-    var a = document.createElement('a');
-    a.href = '#' + h.id;
-    a.className = 'toc-link';
-    a.textContent = h.textContent;
-    li.appendChild(a);
-    ol.appendChild(li);
+    headings.forEach(function (h) {
+      if (!h.id) return;
+      var li = document.createElement('li');
+      li.className = 'toc-item toc-' + h.tagName.toLowerCase();
+      var a = document.createElement('a');
+      a.href = '#' + h.id;
+      a.className = 'toc-link';
+      a.textContent = h.textContent;
+      li.appendChild(a);
+      ol.appendChild(li);
+    });
+
+    if (ol.children.length === 0) return;
+
+    nav.appendChild(ol);
+    details.classList.remove('d-none');
+
+    if (window.matchMedia('(min-width: 992px)').matches) {
+      details.open = true;
+    }
   });
-
-  if (ol.children.length === 0) return;
-
-  nav.appendChild(ol);
-  details.classList.remove('d-none');
-
-  if (window.matchMedia('(min-width: 992px)').matches) {
-    details.open = true;
-  }
-});
 </script>

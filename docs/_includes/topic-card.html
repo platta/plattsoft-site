@@ -1,0 +1,42 @@
+{% comment %}
+Required parameters:
+topic_page — a page with layout: topic
+topic_posts — filtered array of posts for this topic
+
+Example usage:
+{% include topic-card.html topic_page=topic_page topic_posts=topic_posts %}
+{% endcomment %}
+
+<a href="{{ topic_page.url | relative_url }}" class="text-decoration-none text-reset">
+  <div class="card h-100 shadow-sm">
+    <div class="card-body d-flex flex-column">
+
+      <h2 class="h4 card-title mb-3 d-flex align-items-center gap-2">
+        <span>
+          {{ topic_page.title }}
+        </span>
+
+      </h2>
+
+      {% if topic_page.description %}
+      <p class="card-text text-muted flex-grow-1">
+        {{ topic_page.description }}
+      </p>
+      {% endif %}
+
+    </div>
+
+    <div class="card-footer d-flex justify-content-between align-items-center">
+      {% if topic_page.icon %}
+      <span class="text-secondary">
+        <i class="{{ topic_page.icon }}"></i>
+      </span>
+      {% endif %}
+
+      <span class="small text-secondary">
+        {{ topic_posts.size }} post{% unless topic_posts.size == 1 %}s{% endunless %}
+      </span>
+
+    </div>
+  </div>
+</a>

@@ -2,6 +2,7 @@
 title: About
 layout: page
 nav: true
+nav_order: 4
 ---
 
 ## Who am I?

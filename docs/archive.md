@@ -2,6 +2,7 @@
 title: Archive
 layout: default
 nav: true
+nav_order: 2
 ---
 <div class="container-fluid bg-white pt-3">
   <div class="row">

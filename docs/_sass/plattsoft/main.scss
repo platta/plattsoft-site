@@ -289,12 +289,9 @@ html {
   }
 }
 
-
-// Body background
-.bg-medium {
-  background-color: $ps-medium;
+.topic-icon {
+  opacity: 0.75;
 }
-
 
 // Extra border utility classes.
 .border-1 {
@@ -307,4 +304,28 @@ html {
 
 .border-3 {
   border-width: 3px !important;
+}
+
+@media (max-width: 991.98px) {
+  .post-sidebar {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .sidebar-author-card {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .excerpt-footer {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 0.15rem;
+    line-height: 1.2;
+  }
+
 }
