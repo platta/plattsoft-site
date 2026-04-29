@@ -14,6 +14,7 @@ excerpt: I always keep this little script handy for when I need to search my
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - automation
 ---

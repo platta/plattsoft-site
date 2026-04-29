@@ -9,6 +9,7 @@ permalink: /2013/07/31/why-strong-typing-is-important/
 
 categories:
   - Programming
+topic: engineering-thinking
 tags:
   - architecture
   - debugging

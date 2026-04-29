@@ -9,6 +9,7 @@ permalink: /2015/08/27/internationalization-with-import-localizeddata-part-2/
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - automation
   - debugging

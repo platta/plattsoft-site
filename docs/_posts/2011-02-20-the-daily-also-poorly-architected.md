@@ -9,6 +9,7 @@ permalink: /2011/02/20/the-daily-also-poorly-architected/
 
 categories:
   - Soft Skills
+topic: systems-architecture
 tags:
   - architecture
   - debugging

@@ -9,6 +9,7 @@ permalink: /2013/05/27/the-ambulance-down-in-the-valley/
 
 categories:
   - Software Engineering
+topic: communication-leadership-ethics
 tags:
   - architecture
   - leadership

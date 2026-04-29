@@ -1,17 +1,8 @@
 ---
-layout: default
+layout: page-with-sidebar
 ---
-<div class="container-fluid bg-white pt-3">
-  <div class="row">
-    <div class="col-lg-9 px-lg-4 pb-lg-4">
-      <h1>Tag: {{ page.tag }}</h1>
-      {% assign posts = site.tags[page.tag] %}
-      {% for post in posts %}
-        {% include excerpt.html content=post %}
-      {% endfor %}
-    </div>
-    <div class="col-lg-3">
-      {% include sidebar.html %}
-    </div>
-  </div>
-</div>
+<h1>Tag: {{ page.tag }}</h1>
+{% assign posts = site.tags[page.tag] %}
+{% for post in posts %}
+{% include excerpt.html content=post %}
+{% endfor %}

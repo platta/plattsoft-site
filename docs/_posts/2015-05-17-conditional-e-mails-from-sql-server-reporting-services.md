@@ -9,6 +9,7 @@ permalink: /2015/05/17/conditional-e-mails-from-sql-server-reporting-services/
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - automation
 ---

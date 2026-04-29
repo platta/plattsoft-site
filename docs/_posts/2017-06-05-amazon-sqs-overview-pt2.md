@@ -13,6 +13,7 @@ excerpt: |
 
 categories:
   - Cloud
+topic: systems-architecture
 tags:
   - cloud
   - architecture

@@ -9,6 +9,7 @@ permalink: /2009/09/11/version-control-with-subversion/
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - general
 ---

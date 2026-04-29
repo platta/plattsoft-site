@@ -9,6 +9,7 @@ permalink: /2008/11/02/the-state-of-the-art/
 
 categories:
   - Software Engineering
+topic: communication-leadership-ethics
 tags:
   - architecture
 ---

@@ -9,6 +9,7 @@ permalink: /2008/10/29/recording-real-time-to-failure/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - debugging
   - design

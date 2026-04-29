@@ -13,6 +13,7 @@ excerpt: |
 
 categories:
   - Technology
+topic: systems-architecture
 tags:
   - systems-thinking
 ---

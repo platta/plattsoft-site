@@ -9,6 +9,7 @@ permalink: /2012/03/09/the-ipads-retina-display-spells-the-end-for-bloated-magaz
 
 categories:
   - Technology
+topic: systems-architecture
 tags:
   - architecture
   - ux

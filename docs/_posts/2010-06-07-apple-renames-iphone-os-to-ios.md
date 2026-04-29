@@ -9,6 +9,7 @@ permalink: /2010/06/07/apple-renames-iphone-os-to-ios/
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - systems-thinking
 ---

@@ -9,6 +9,7 @@ permalink: /2017/03/05/goldilocks-and-the-three-functions/
 
 categories:
   - Programming
+topic: engineering-thinking
 tags:
   - design
 ---

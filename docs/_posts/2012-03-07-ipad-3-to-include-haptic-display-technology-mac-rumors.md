@@ -9,6 +9,7 @@ permalink: /2012/03/07/ipad-3-to-include-haptic-display-technology-mac-rumors/
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - systems-thinking
 ---

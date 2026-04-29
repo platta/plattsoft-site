@@ -9,6 +9,7 @@ permalink: /2011/08/23/why-bug-free-is-impossible/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - testing
   - debugging

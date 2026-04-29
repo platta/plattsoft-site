@@ -9,6 +9,7 @@ permalink: /2017/04/03/baby-connect-project-design-considerations/
 
 categories:
   - Cloud
+topic: systems-architecture
 tags:
   - architecture
   - cloud

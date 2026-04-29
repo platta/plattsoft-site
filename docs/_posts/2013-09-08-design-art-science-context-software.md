@@ -9,6 +9,7 @@ permalink: /2013/09/08/design-art-science-context-software/
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - architecture
   - design

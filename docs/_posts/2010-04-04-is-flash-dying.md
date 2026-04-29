@@ -9,6 +9,7 @@ permalink: /2010/04/04/is-flash-dying/
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - ux
 ---

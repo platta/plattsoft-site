@@ -9,6 +9,7 @@ permalink: /2017/04/17/touch-ux-trends-started-apps/
 
 categories:
   - Technology
+topic: engineering-thinking
 tags:
   - ux
   - design

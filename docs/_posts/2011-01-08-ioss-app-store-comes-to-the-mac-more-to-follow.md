@@ -9,6 +9,7 @@ permalink: /2011/01/08/ioss-app-store-comes-to-the-mac-more-to-follow/
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - systems-thinking
 ---

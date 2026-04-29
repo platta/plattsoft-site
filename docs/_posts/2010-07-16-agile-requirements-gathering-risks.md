@@ -9,6 +9,7 @@ permalink: /2010/07/16/agile-requirements-gathering-risks/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - general
 ---

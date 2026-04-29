@@ -12,6 +12,7 @@ excerpt: The registry in the Windows 8 Consumer Preview indicates a possible new
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - general
 ---

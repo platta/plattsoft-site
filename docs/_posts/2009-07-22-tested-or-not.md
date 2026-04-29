@@ -9,6 +9,7 @@ permalink: /2009/07/22/tested-or-not/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - testing
   - communication

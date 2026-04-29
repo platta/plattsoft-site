@@ -9,6 +9,7 @@ permalink: /2010/03/30/windirstat/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - automation
 ---

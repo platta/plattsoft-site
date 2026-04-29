@@ -9,6 +9,7 @@ permalink: /2010/07/11/valve-got-it-right/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - ux
   - design

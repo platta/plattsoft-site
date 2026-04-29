@@ -9,6 +9,7 @@ permalink: /2013/05/20/bones-my-learning-experience/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - learning
   - automation

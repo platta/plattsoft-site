@@ -9,6 +9,7 @@ permalink: /2012/03/23/the-logical-fallacy-of-pirating-content/
 
 categories:
   - General Blog
+topic: communication-leadership-ethics
 tags:
   - general
 ---

@@ -9,6 +9,7 @@ permalink: /2010/07/20/worst-practices-thinking-you-are-done-learning/
 
 categories:
   - Software Engineering
+topic: communication-leadership-ethics
 tags:
   - learning
   - career

@@ -9,6 +9,7 @@ permalink: /2012/03/12/posterous-spaces-acquired-by-twitter/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - general
 ---

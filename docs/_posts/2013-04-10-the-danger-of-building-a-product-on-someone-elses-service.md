@@ -9,6 +9,7 @@ permalink: /2013/04/10/the-danger-of-building-a-product-on-someone-elses-service
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - architecture
   - design

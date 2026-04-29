@@ -9,6 +9,7 @@ permalink: /2008/09/16/baseline-systems-for-testing/
 
 categories:
   - Software Engineering
+topic: engineering-thinking
 tags:
   - testing
   - debugging

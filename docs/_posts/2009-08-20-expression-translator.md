@@ -9,6 +9,7 @@ permalink: /2009/08/20/expression-translator/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - automation
 ---

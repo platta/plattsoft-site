@@ -9,6 +9,7 @@ permalink: /2012/06/11/the-reposting-epidemic/
 
 categories:
   - General Blog
+topic: communication-leadership-ethics
 tags:
   - communication
 ---

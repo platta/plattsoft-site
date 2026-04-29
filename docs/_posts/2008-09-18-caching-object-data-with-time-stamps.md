@@ -9,6 +9,7 @@ permalink: /2008/09/18/caching-object-data-with-time-stamps/
 
 categories:
   - Programming
+topic: engineering-thinking
 tags:
   - design
 ---

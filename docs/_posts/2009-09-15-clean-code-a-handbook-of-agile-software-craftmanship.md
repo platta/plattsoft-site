@@ -9,6 +9,7 @@ permalink: /2009/09/15/clean-code-a-handbook-of-agile-software-craftmanship/
 
 categories:
   - Programming
+topic: communication-leadership-ethics
 tags:
   - general
 ---

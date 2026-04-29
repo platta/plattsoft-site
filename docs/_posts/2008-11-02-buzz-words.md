@@ -17,6 +17,7 @@ excerpt: |
   many more can be useful but more often than not I think they have a negative
   impact on developers. These effects can be seen both outside and inside the
   development department.
+topic: communication-leadership-ethics
 tags:
   - communication
 ---

@@ -9,6 +9,7 @@ permalink: /2009/07/21/analogies-as-abstractions/
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - design
   - learning

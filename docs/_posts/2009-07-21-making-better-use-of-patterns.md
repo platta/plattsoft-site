@@ -9,6 +9,7 @@ permalink: /2009/07/21/making-better-use-of-patterns/
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - architecture
   - design

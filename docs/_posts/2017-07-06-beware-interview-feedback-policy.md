@@ -13,6 +13,7 @@ excerpt: |
 
 categories:
   - Soft Skills
+topic: communication-leadership-ethics
 tags:
   - leadership
   - career

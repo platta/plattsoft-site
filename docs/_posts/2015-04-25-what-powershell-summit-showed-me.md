@@ -9,6 +9,7 @@ permalink: /2015/04/25/what-powershell-summit-showed-me/
 
 categories:
   - Technology
+topic: communication-leadership-ethics
 tags:
   - leadership
   - learning

@@ -15,6 +15,24 @@ grow stronger in their careers and interests.
 I don't update as often as I'd like, but I try hard to make every post
 worthwhile. I hope you find something valuable from reading.
 
+<div class="text-center mb-3" markdown="1">
+## Start Here
+</div>
+
+{% assign start_post = site.posts | where: "title", "Goldilocks and the Three Functions" | first %}
+{% if start_post %}
+<div class="card mb-4 border-secondary">
+  <div class="card-body">
+    <span class="badge bg-secondary mb-2">Recommended</span>
+    <h4 class="card-title">
+      <a href="{{ start_post.url | relative_url }}" class="text-decoration-none stretched-link">{{ start_post.title }}</a>
+    </h4>
+    <p class="card-subtitle mb-2 text-muted small">A foundational post on engineering balance and tradeoffs.</p>
+    <p class="card-text">{{ start_post.excerpt }}</p>
+  </div>
+</div>
+{% endif %}
+
 <div class="row">
 
 <div class="col-md-6">

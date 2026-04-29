@@ -9,6 +9,7 @@ permalink: /2009/07/06/sinking-the-titanic/
 
 categories:
   - Software Engineering
+topic: communication-leadership-ethics
 tags:
   - architecture
   - leadership

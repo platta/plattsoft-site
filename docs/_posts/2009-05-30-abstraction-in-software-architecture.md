@@ -9,6 +9,7 @@ permalink: /2009/05/30/abstraction-in-software-architecture/
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - architecture
   - design

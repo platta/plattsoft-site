@@ -9,6 +9,7 @@ permalink: /2010/06/26/what-motivates-us/
 
 categories:
   - Soft Skills
+topic: communication-leadership-ethics
 tags:
   - leadership
   - learning

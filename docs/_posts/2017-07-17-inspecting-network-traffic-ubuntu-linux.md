@@ -14,6 +14,7 @@ excerpt: |
 
 categories:
   - Technology
+topic: technical-practice
 tags:
   - systems-thinking
   - automation

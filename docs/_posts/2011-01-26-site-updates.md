@@ -9,6 +9,7 @@ permalink: /2011/01/26/site-updates/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - general
 ---

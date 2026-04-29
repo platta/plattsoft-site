@@ -1,20 +1,8 @@
 ---
-layout: default
+layout: page-with-sidebar
 ---
-<div class="container-fluid bg-white pt-3">
-  <div class="row">
-    <div class="col-lg-9 px-lg-4 pb-lg-4">
-      <h1>{{ page.category-name }} posts</h1>
+<h1>{{ page.category-name }} posts</h1>
 
-      {% for post in site.categories[page.category-name] %}
-        {% include excerpt.html content=post %}
-      {% endfor %}
-
-    </div>
-    <div class="col-lg-3">
-
-      {% include sidebar.html %}
-
-    </div>
-  </div>
-</div>
+{% for post in site.categories[page.category-name] %}
+{% include excerpt.html content=post %}
+{% endfor %}

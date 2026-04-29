@@ -9,6 +9,7 @@ permalink: /2017/03/20/tracking-baby-aws-iot/
 
 categories:
   - Cloud
+topic: systems-architecture
 tags:
   - cloud
   - architecture

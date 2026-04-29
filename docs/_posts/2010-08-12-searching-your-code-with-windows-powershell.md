@@ -9,6 +9,7 @@ permalink: /2010/08/12/searching-your-code-with-windows-powershell/
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - automation
 ---

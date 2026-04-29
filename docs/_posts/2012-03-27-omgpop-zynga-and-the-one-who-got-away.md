@@ -9,6 +9,7 @@ permalink: /2012/03/27/omgpop-zynga-and-the-one-who-got-away/
 
 categories:
   - Technology
+topic: communication-leadership-ethics
 tags:
   - leadership
   - career

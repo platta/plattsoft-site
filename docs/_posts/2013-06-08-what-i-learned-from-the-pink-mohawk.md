@@ -9,6 +9,7 @@ permalink: /2013/06/08/what-i-learned-from-the-pink-mohawk/
 
 categories:
   - General Blog
+topic: communication-leadership-ethics
 tags:
   - leadership
   - communication

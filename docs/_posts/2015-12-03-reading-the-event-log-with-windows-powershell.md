@@ -9,6 +9,7 @@ permalink: /2015/12/03/reading-the-event-log-with-windows-powershell/
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - automation
 ---

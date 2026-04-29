@@ -9,6 +9,7 @@ permalink: /2013/06/17/worst-practices-estimate-vs-target/
 
 categories:
   - Software Engineering
+topic: communication-leadership-ethics
 tags:
   - communication
 ---

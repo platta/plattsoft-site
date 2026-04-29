@@ -9,6 +9,7 @@ permalink: /2013/04/11/ruby-woes-cant-modify-self/
 
 categories:
   - Programming
+topic: technical-practice
 tags:
   - debugging
 ---

@@ -14,6 +14,7 @@ excerpt: |
 
 categories:
   - Cloud
+topic: technical-practice
 tags:
   - cloud
   - automation

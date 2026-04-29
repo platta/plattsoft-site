@@ -9,6 +9,7 @@ permalink: /2009/07/21/benefits-of-analogies-in-software-architecture-and-design
 
 categories:
   - Software Engineering
+topic: systems-architecture
 tags:
   - architecture
   - design

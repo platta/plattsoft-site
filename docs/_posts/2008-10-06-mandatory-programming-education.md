@@ -9,6 +9,7 @@ permalink: /2008/10/06/mandatory-programming-education/
 
 categories:
   - Programming
+topic: communication-leadership-ethics
 tags:
   - learning
 ---

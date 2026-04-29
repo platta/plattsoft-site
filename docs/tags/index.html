@@ -1,41 +1,32 @@
 ---
-layout: default
-title: Topics
+layout: page-with-sidebar
+title: Tags
 permalink: /tags/
 nav: true
 ---
-<div class="container-fluid bg-white pt-3">
-  <div class="row">
-    <div class="col-lg-9 px-lg-4 pb-lg-4">
-      <h1>Topics</h1>
 
-      {% comment %}
-        Sort tags by post count descending.
-        Liquid has no sort-by-property for hash entries, so we collect unique
-        sizes, sort them descending, then emit tags at each size level.
-      {% endcomment %}
-      {% assign sizes = '' | split: '' %}
-      {% for tag in site.tags %}
-        {% assign sizes = sizes | push: tag[1].size %}
-      {% endfor %}
-      {% assign sizes = sizes | sort | reverse | uniq %}
+<h1>Tags</h1>
 
-      <ul class="list-unstyled">
-        {% for size in sizes %}
-          {% for tag in site.tags %}
-            {% if tag[1].size == size %}
-            <li class="mb-1">
-              <a href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] }}</a>
-              <span class="badge bg-secondary ms-1">{{ tag[1].size }}</span>
-            </li>
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      </ul>
+{% comment %}
+Sort tags by post count descending.
+Liquid has no sort-by-property for hash entries, so we collect unique
+sizes, sort them descending, then emit tags at each size level.
+{% endcomment %}
+{% assign sizes = '' | split: '' %}
+{% for tag in site.tags %}
+{% assign sizes = sizes | push: tag[1].size %}
+{% endfor %}
+{% assign sizes = sizes | sort | reverse | uniq %}
 
-    </div>
-    <div class="col-lg-3">
-      {% include sidebar.html %}
-    </div>
-  </div>
-</div>
+<ul class="list-unstyled">
+  {% for size in sizes %}
+  {% for tag in site.tags %}
+  {% if tag[1].size == size %}
+  <li class="mb-1">
+    <a href="{{ '/tags/' | append: tag[0] | relative_url }}">{{ tag[0] }}</a>
+    <span class="badge bg-secondary ms-1">{{ tag[1].size }}</span>
+  </li>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</ul>

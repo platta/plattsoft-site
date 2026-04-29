@@ -9,6 +9,7 @@ permalink: /2012/03/21/microsoft-vs-apple-the-fabricated-rivalry/
 
 categories:
   - Technology
+topic: communication-leadership-ethics
 tags:
   - general
 ---

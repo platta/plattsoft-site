@@ -9,6 +9,7 @@ permalink: /2009/08/08/the-new-plattsoft/
 
 categories:
   - General Blog
+topic: technical-practice
 tags:
   - general
 ---

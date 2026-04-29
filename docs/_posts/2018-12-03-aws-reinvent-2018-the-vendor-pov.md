@@ -13,6 +13,7 @@ excerpt: |
 
 categories:
   - General Blog
+topic: communication-leadership-ethics
 tags:
   - cloud
   - leadership
