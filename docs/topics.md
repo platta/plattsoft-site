@@ -1,6 +1,7 @@
 ---
 layout: page-with-sidebar
 title: Topics
+permalink: /topics/
 nav: true
 nav_order: 1
 ---

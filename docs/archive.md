@@ -1,6 +1,7 @@
 ---
 title: Archive
 layout: default
+permalink: /archive/
 nav: true
 nav_order: 2
 ---
